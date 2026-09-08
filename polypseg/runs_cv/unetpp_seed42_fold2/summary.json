@@ -1,0 +1,12 @@
+{
+  "run": "unetpp_seed42_fold2",
+  "model": "unetpp",
+  "seed": 42,
+  "tag": "fold2",
+  "splits": "polypseg/outputs/folds/fold2.csv",
+  "best_val_dice": 0.9001047622860108,
+  "best_epoch": 20,
+  "params_total": 26078609,
+  "params_trainable": 26078609,
+  "device": "cuda"
+}

@@ -1,0 +1,61 @@
+# ---------------------------------------------------------------------------
+# Credentials and agent config  (NEVER commit: contains a RunPod API key)
+# ---------------------------------------------------------------------------
+.devin/
+*.pem
+*.key
+id_ed25519*
+id_rsa*
+.env
+.env.*
+
+# ---------------------------------------------------------------------------
+# Local environment
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Datasets: redistribute via the original providers, not this repository.
+# Kvasir-SEG is licensed for research/education only.
+# ---------------------------------------------------------------------------
+Kvasir-SEG/
+sessile-main-Kvasir-SEG/
+cvc-clinicDB/
+data/
+*.zip
+
+# ---------------------------------------------------------------------------
+# Model weights (regenerate with the run scripts; per-run summary.json and
+# log.csv ARE tracked so training curves remain inspectable)
+# ---------------------------------------------------------------------------
+*.pth
+*.ckpt
+*.pt
+
+# ---------------------------------------------------------------------------
+# Manuscript sources are distributed via the journal / preprint, not here
+# ---------------------------------------------------------------------------
+polypseg/paper/
+polypseg/paper_journal/
+
+# LaTeX build artefacts (in case a manuscript is added later)
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+
+# Local scratch
+/tmp/
+*.tmp
+
+# Third-party documents (not ours to redistribute)
+*.pdf

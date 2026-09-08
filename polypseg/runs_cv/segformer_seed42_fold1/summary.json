@@ -1,0 +1,12 @@
+{
+  "run": "segformer_seed42_fold1",
+  "model": "segformer",
+  "seed": 42,
+  "tag": "fold1",
+  "splits": "polypseg/outputs/folds/fold1.csv",
+  "best_val_dice": 0.9044777547639685,
+  "best_epoch": 46,
+  "params_total": 3714401,
+  "params_trainable": 3714401,
+  "device": "cuda"
+}

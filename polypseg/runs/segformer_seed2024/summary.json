@@ -1,0 +1,10 @@
+{
+  "run": "segformer_seed2024",
+  "model": "segformer",
+  "seed": 2024,
+  "best_val_dice": 0.9108613737026942,
+  "best_epoch": 40,
+  "params_total": 3714401,
+  "params_trainable": 3714401,
+  "device": "cuda"
+}

@@ -1,0 +1,12 @@
+{
+  "run": "unet_pvt_seed42_fold1",
+  "model": "unet_pvt",
+  "seed": 42,
+  "tag": "fold1",
+  "splits": "polypseg/outputs/folds/fold1.csv",
+  "best_val_dice": 0.9159298589604126,
+  "best_epoch": 29,
+  "params_total": 28130577,
+  "params_trainable": 28130577,
+  "device": "cuda"
+}

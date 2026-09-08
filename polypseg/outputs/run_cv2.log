@@ -1,0 +1,2095 @@
+External test sets: cvc-300=data/external/cvc-300/ cvc-clinicdb=data/external/cvc-clinicdb/ cvc-colondb=data/external/cvc-colondb/ etis-larib=data/external/etis-larib/
+== train unet_seed42_fold0
+[unet_seed42_fold0] device=cuda params=24.44M train=700 val=100 amp=True
+[unet_seed42_fold0] epoch   1/60 loss=1.2108 val_dice=0.6173 (4s)
+[unet_seed42_fold0] epoch   2/60 loss=0.9643 val_dice=0.7414 (3s)
+[unet_seed42_fold0] epoch   3/60 loss=0.8761 val_dice=0.7501 (3s)
+[unet_seed42_fold0] epoch   4/60 loss=0.7992 val_dice=0.7926 (3s)
+[unet_seed42_fold0] epoch   5/60 loss=0.7381 val_dice=0.8136 (3s)
+[unet_seed42_fold0] epoch   6/60 loss=0.6888 val_dice=0.8120 (3s)
+[unet_seed42_fold0] epoch   7/60 loss=0.6341 val_dice=0.8184 (3s)
+[unet_seed42_fold0] epoch   8/60 loss=0.5972 val_dice=0.8037 (3s)
+[unet_seed42_fold0] epoch   9/60 loss=0.5537 val_dice=0.8125 (4s)
+[unet_seed42_fold0] epoch  10/60 loss=0.5235 val_dice=0.8211 (4s)
+[unet_seed42_fold0] epoch  11/60 loss=0.4928 val_dice=0.8109 (3s)
+[unet_seed42_fold0] epoch  12/60 loss=0.4614 val_dice=0.8434 (3s)
+[unet_seed42_fold0] epoch  13/60 loss=0.4445 val_dice=0.8184 (3s)
+[unet_seed42_fold0] epoch  14/60 loss=0.4152 val_dice=0.8135 (3s)
+[unet_seed42_fold0] epoch  15/60 loss=0.3963 val_dice=0.8212 (3s)
+[unet_seed42_fold0] epoch  16/60 loss=0.3863 val_dice=0.8322 (3s)
+[unet_seed42_fold0] epoch  17/60 loss=0.3656 val_dice=0.8492 (3s)
+[unet_seed42_fold0] epoch  18/60 loss=0.3479 val_dice=0.8333 (3s)
+[unet_seed42_fold0] epoch  19/60 loss=0.3300 val_dice=0.8522 (3s)
+[unet_seed42_fold0] epoch  20/60 loss=0.3283 val_dice=0.8418 (3s)
+[unet_seed42_fold0] epoch  21/60 loss=0.3256 val_dice=0.8524 (3s)
+[unet_seed42_fold0] epoch  22/60 loss=0.2952 val_dice=0.8648 (3s)
+[unet_seed42_fold0] epoch  23/60 loss=0.3037 val_dice=0.8566 (3s)
+[unet_seed42_fold0] epoch  24/60 loss=0.3029 val_dice=0.8534 (3s)
+[unet_seed42_fold0] epoch  25/60 loss=0.2754 val_dice=0.8578 (3s)
+[unet_seed42_fold0] epoch  26/60 loss=0.2774 val_dice=0.8376 (3s)
+[unet_seed42_fold0] epoch  27/60 loss=0.2547 val_dice=0.8461 (3s)
+[unet_seed42_fold0] epoch  28/60 loss=0.2635 val_dice=0.8525 (3s)
+[unet_seed42_fold0] epoch  29/60 loss=0.2577 val_dice=0.8616 (3s)
+[unet_seed42_fold0] epoch  30/60 loss=0.2484 val_dice=0.8600 (3s)
+[unet_seed42_fold0] epoch  31/60 loss=0.2338 val_dice=0.8518 (3s)
+[unet_seed42_fold0] epoch  32/60 loss=0.2295 val_dice=0.8556 (3s)
+[unet_seed42_fold0] epoch  33/60 loss=0.2233 val_dice=0.8560 (3s)
+[unet_seed42_fold0] epoch  34/60 loss=0.2179 val_dice=0.8613 (3s)
+[unet_seed42_fold0] epoch  35/60 loss=0.2139 val_dice=0.8604 (3s)
+[unet_seed42_fold0] epoch  36/60 loss=0.2146 val_dice=0.8657 (3s)
+[unet_seed42_fold0] epoch  37/60 loss=0.2170 val_dice=0.8597 (4s)
+[unet_seed42_fold0] epoch  38/60 loss=0.2139 val_dice=0.8521 (3s)
+[unet_seed42_fold0] epoch  39/60 loss=0.2010 val_dice=0.8547 (3s)
+[unet_seed42_fold0] epoch  40/60 loss=0.1994 val_dice=0.8530 (4s)
+[unet_seed42_fold0] epoch  41/60 loss=0.1952 val_dice=0.8490 (4s)
+[unet_seed42_fold0] epoch  42/60 loss=0.1930 val_dice=0.8537 (4s)
+[unet_seed42_fold0] epoch  43/60 loss=0.1936 val_dice=0.8597 (3s)
+[unet_seed42_fold0] epoch  44/60 loss=0.1960 val_dice=0.8652 (4s)
+[unet_seed42_fold0] epoch  45/60 loss=0.1807 val_dice=0.8572 (3s)
+[unet_seed42_fold0] epoch  46/60 loss=0.1738 val_dice=0.8545 (4s)
+[unet_seed42_fold0] epoch  47/60 loss=0.1811 val_dice=0.8540 (4s)
+[unet_seed42_fold0] epoch  48/60 loss=0.1758 val_dice=0.8573 (4s)
+[unet_seed42_fold0] epoch  49/60 loss=0.1799 val_dice=0.8590 (3s)
+[unet_seed42_fold0] epoch  50/60 loss=0.1768 val_dice=0.8586 (3s)
+[unet_seed42_fold0] epoch  51/60 loss=0.1849 val_dice=0.8556 (3s)
+[unet_seed42_fold0] early stop at epoch 51 (best 0.8657 @ 36)
+[unet_seed42_fold0] done. best val Dice 0.8657 @ epoch 36
+== eval unet_seed42_fold0
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8572  0.7749       0.5947
+cvc-clinicdb  0.8507  0.7702       0.5435
+cvc-colondb   0.7327  0.6514       0.4564
+etis-larib    0.6496  0.5764       0.4709
+kvasir-seg    0.9025  0.8459       0.6667
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold0.csv
+== eval unet_seed42_fold0 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8714  0.7937       0.6292
+cvc-clinicdb  0.8609  0.7836       0.5627
+cvc-colondb   0.7387  0.6563       0.4683
+etis-larib    0.6834  0.6121       0.5014
+kvasir-seg    0.9135  0.8596       0.6787
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold0_tta.csv
+== train unet_seed42_fold1
+[unet_seed42_fold1] device=cuda params=24.44M train=700 val=100 amp=True
+[unet_seed42_fold1] epoch   1/60 loss=1.2100 val_dice=0.6399 (4s)
+[unet_seed42_fold1] epoch   2/60 loss=0.9605 val_dice=0.7013 (4s)
+[unet_seed42_fold1] epoch   3/60 loss=0.8795 val_dice=0.7877 (3s)
+[unet_seed42_fold1] epoch   4/60 loss=0.8010 val_dice=0.8234 (3s)
+[unet_seed42_fold1] epoch   5/60 loss=0.7297 val_dice=0.8550 (3s)
+[unet_seed42_fold1] epoch   6/60 loss=0.6718 val_dice=0.8482 (3s)
+[unet_seed42_fold1] epoch   7/60 loss=0.6224 val_dice=0.8691 (3s)
+[unet_seed42_fold1] epoch   8/60 loss=0.5750 val_dice=0.8778 (4s)
+[unet_seed42_fold1] epoch   9/60 loss=0.5376 val_dice=0.8724 (4s)
+[unet_seed42_fold1] epoch  10/60 loss=0.4982 val_dice=0.8856 (3s)
+[unet_seed42_fold1] epoch  11/60 loss=0.4642 val_dice=0.8522 (3s)
+[unet_seed42_fold1] epoch  12/60 loss=0.4384 val_dice=0.8743 (4s)
+[unet_seed42_fold1] epoch  13/60 loss=0.4172 val_dice=0.8677 (4s)
+[unet_seed42_fold1] epoch  14/60 loss=0.3985 val_dice=0.8787 (4s)
+[unet_seed42_fold1] epoch  15/60 loss=0.3667 val_dice=0.8723 (4s)
+[unet_seed42_fold1] epoch  16/60 loss=0.3570 val_dice=0.8894 (4s)
+[unet_seed42_fold1] epoch  17/60 loss=0.3402 val_dice=0.8761 (4s)
+[unet_seed42_fold1] epoch  18/60 loss=0.3256 val_dice=0.8815 (4s)
+[unet_seed42_fold1] epoch  19/60 loss=0.3121 val_dice=0.8821 (3s)
+[unet_seed42_fold1] epoch  20/60 loss=0.3001 val_dice=0.8811 (3s)
+[unet_seed42_fold1] epoch  21/60 loss=0.2898 val_dice=0.8890 (3s)
+[unet_seed42_fold1] epoch  22/60 loss=0.2845 val_dice=0.8803 (3s)
+[unet_seed42_fold1] epoch  23/60 loss=0.2714 val_dice=0.8862 (3s)
+[unet_seed42_fold1] epoch  24/60 loss=0.2597 val_dice=0.8816 (3s)
+[unet_seed42_fold1] epoch  25/60 loss=0.2499 val_dice=0.9017 (3s)
+[unet_seed42_fold1] epoch  26/60 loss=0.2417 val_dice=0.8925 (4s)
+[unet_seed42_fold1] epoch  27/60 loss=0.2446 val_dice=0.8889 (4s)
+[unet_seed42_fold1] epoch  28/60 loss=0.2321 val_dice=0.8934 (3s)
+[unet_seed42_fold1] epoch  29/60 loss=0.2170 val_dice=0.8907 (3s)
+[unet_seed42_fold1] epoch  30/60 loss=0.2225 val_dice=0.8767 (4s)
+[unet_seed42_fold1] epoch  31/60 loss=0.2289 val_dice=0.8901 (4s)
+[unet_seed42_fold1] epoch  32/60 loss=0.2048 val_dice=0.8877 (4s)
+[unet_seed42_fold1] epoch  33/60 loss=0.1925 val_dice=0.8806 (4s)
+[unet_seed42_fold1] epoch  34/60 loss=0.1977 val_dice=0.8874 (3s)
+[unet_seed42_fold1] epoch  35/60 loss=0.1953 val_dice=0.8848 (3s)
+[unet_seed42_fold1] epoch  36/60 loss=0.1902 val_dice=0.8969 (4s)
+[unet_seed42_fold1] epoch  37/60 loss=0.1876 val_dice=0.8955 (3s)
+[unet_seed42_fold1] epoch  38/60 loss=0.1783 val_dice=0.9025 (4s)
+[unet_seed42_fold1] epoch  39/60 loss=0.1849 val_dice=0.8997 (3s)
+[unet_seed42_fold1] epoch  40/60 loss=0.1775 val_dice=0.8999 (4s)
+[unet_seed42_fold1] epoch  41/60 loss=0.1749 val_dice=0.8922 (4s)
+[unet_seed42_fold1] epoch  42/60 loss=0.1782 val_dice=0.8956 (4s)
+[unet_seed42_fold1] epoch  43/60 loss=0.1669 val_dice=0.9021 (3s)
+[unet_seed42_fold1] epoch  44/60 loss=0.1784 val_dice=0.9013 (4s)
+[unet_seed42_fold1] epoch  45/60 loss=0.1668 val_dice=0.9008 (4s)
+[unet_seed42_fold1] epoch  46/60 loss=0.1637 val_dice=0.9034 (3s)
+[unet_seed42_fold1] epoch  47/60 loss=0.1582 val_dice=0.8987 (3s)
+[unet_seed42_fold1] epoch  48/60 loss=0.1681 val_dice=0.8990 (3s)
+[unet_seed42_fold1] epoch  49/60 loss=0.1612 val_dice=0.8989 (4s)
+[unet_seed42_fold1] epoch  50/60 loss=0.1551 val_dice=0.8935 (4s)
+[unet_seed42_fold1] epoch  51/60 loss=0.1717 val_dice=0.9042 (4s)
+[unet_seed42_fold1] epoch  52/60 loss=0.1564 val_dice=0.9038 (3s)
+[unet_seed42_fold1] epoch  53/60 loss=0.1502 val_dice=0.9037 (4s)
+[unet_seed42_fold1] epoch  54/60 loss=0.1531 val_dice=0.9027 (3s)
+[unet_seed42_fold1] epoch  55/60 loss=0.1542 val_dice=0.9027 (3s)
+[unet_seed42_fold1] epoch  56/60 loss=0.1594 val_dice=0.9029 (3s)
+[unet_seed42_fold1] epoch  57/60 loss=0.1558 val_dice=0.9013 (3s)
+[unet_seed42_fold1] epoch  58/60 loss=0.1499 val_dice=0.9020 (3s)
+[unet_seed42_fold1] epoch  59/60 loss=0.1570 val_dice=0.9026 (3s)
+[unet_seed42_fold1] epoch  60/60 loss=0.1533 val_dice=0.9036 (3s)
+[unet_seed42_fold1] done. best val Dice 0.9042 @ epoch 51
+== eval unet_seed42_fold1
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8527  0.7730       0.5711
+cvc-clinicdb  0.8586  0.7813       0.5744
+cvc-colondb   0.7221  0.6411       0.4618
+etis-larib    0.7029  0.6246       0.5222
+kvasir-seg    0.9025  0.8455       0.6847
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold1.csv
+== eval unet_seed42_fold1 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8571  0.7786       0.5877
+cvc-clinicdb  0.8636  0.7896       0.5900
+cvc-colondb   0.7356  0.6534       0.4705
+etis-larib    0.7275  0.6542       0.5478
+kvasir-seg    0.8999  0.8475       0.6969
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold1_tta.csv
+== train unet_seed42_fold2
+[unet_seed42_fold2] device=cuda params=24.44M train=700 val=100 amp=True
+[unet_seed42_fold2] epoch   1/60 loss=1.2062 val_dice=0.6390 (4s)
+[unet_seed42_fold2] epoch   2/60 loss=0.9632 val_dice=0.7510 (3s)
+[unet_seed42_fold2] epoch   3/60 loss=0.8686 val_dice=0.7403 (3s)
+[unet_seed42_fold2] epoch   4/60 loss=0.7928 val_dice=0.8101 (3s)
+[unet_seed42_fold2] epoch   5/60 loss=0.7365 val_dice=0.8346 (3s)
+[unet_seed42_fold2] epoch   6/60 loss=0.6753 val_dice=0.8452 (3s)
+[unet_seed42_fold2] epoch   7/60 loss=0.6269 val_dice=0.8439 (3s)
+[unet_seed42_fold2] epoch   8/60 loss=0.5785 val_dice=0.8477 (3s)
+[unet_seed42_fold2] epoch   9/60 loss=0.5395 val_dice=0.8753 (3s)
+[unet_seed42_fold2] epoch  10/60 loss=0.5172 val_dice=0.8893 (3s)
+[unet_seed42_fold2] epoch  11/60 loss=0.4640 val_dice=0.8729 (3s)
+[unet_seed42_fold2] epoch  12/60 loss=0.4568 val_dice=0.8727 (3s)
+[unet_seed42_fold2] epoch  13/60 loss=0.4350 val_dice=0.8671 (3s)
+[unet_seed42_fold2] epoch  14/60 loss=0.4094 val_dice=0.8622 (3s)
+[unet_seed42_fold2] epoch  15/60 loss=0.3815 val_dice=0.8890 (4s)
+[unet_seed42_fold2] epoch  16/60 loss=0.3688 val_dice=0.8859 (3s)
+[unet_seed42_fold2] epoch  17/60 loss=0.3566 val_dice=0.8794 (3s)
+[unet_seed42_fold2] epoch  18/60 loss=0.3509 val_dice=0.8725 (3s)
+[unet_seed42_fold2] epoch  19/60 loss=0.3281 val_dice=0.8854 (3s)
+[unet_seed42_fold2] epoch  20/60 loss=0.3103 val_dice=0.8882 (3s)
+[unet_seed42_fold2] epoch  21/60 loss=0.3000 val_dice=0.8602 (4s)
+[unet_seed42_fold2] epoch  22/60 loss=0.3020 val_dice=0.8738 (3s)
+[unet_seed42_fold2] epoch  23/60 loss=0.2781 val_dice=0.8977 (3s)
+[unet_seed42_fold2] epoch  24/60 loss=0.2841 val_dice=0.8855 (3s)
+[unet_seed42_fold2] epoch  25/60 loss=0.2902 val_dice=0.8832 (3s)
+[unet_seed42_fold2] epoch  26/60 loss=0.2728 val_dice=0.8842 (4s)
+[unet_seed42_fold2] epoch  27/60 loss=0.2594 val_dice=0.8960 (3s)
+[unet_seed42_fold2] epoch  28/60 loss=0.2326 val_dice=0.8930 (3s)
+[unet_seed42_fold2] epoch  29/60 loss=0.2422 val_dice=0.8930 (3s)
+[unet_seed42_fold2] epoch  30/60 loss=0.2285 val_dice=0.8847 (3s)
+[unet_seed42_fold2] epoch  31/60 loss=0.2220 val_dice=0.8995 (3s)
+[unet_seed42_fold2] epoch  32/60 loss=0.2245 val_dice=0.8937 (3s)
+[unet_seed42_fold2] epoch  33/60 loss=0.2206 val_dice=0.8976 (3s)
+[unet_seed42_fold2] epoch  34/60 loss=0.2215 val_dice=0.8976 (3s)
+[unet_seed42_fold2] epoch  35/60 loss=0.2040 val_dice=0.9000 (3s)
+[unet_seed42_fold2] epoch  36/60 loss=0.1975 val_dice=0.9002 (4s)
+[unet_seed42_fold2] epoch  37/60 loss=0.1931 val_dice=0.8995 (4s)
+[unet_seed42_fold2] epoch  38/60 loss=0.2020 val_dice=0.8966 (3s)
+[unet_seed42_fold2] epoch  39/60 loss=0.1918 val_dice=0.8998 (3s)
+[unet_seed42_fold2] epoch  40/60 loss=0.1863 val_dice=0.9024 (4s)
+[unet_seed42_fold2] epoch  41/60 loss=0.1891 val_dice=0.9027 (4s)
+[unet_seed42_fold2] epoch  42/60 loss=0.1963 val_dice=0.8989 (3s)
+[unet_seed42_fold2] epoch  43/60 loss=0.1835 val_dice=0.9019 (3s)
+[unet_seed42_fold2] epoch  44/60 loss=0.1796 val_dice=0.9035 (3s)
+[unet_seed42_fold2] epoch  45/60 loss=0.1735 val_dice=0.9014 (4s)
+[unet_seed42_fold2] epoch  46/60 loss=0.1744 val_dice=0.9039 (3s)
+[unet_seed42_fold2] epoch  47/60 loss=0.1768 val_dice=0.9025 (3s)
+[unet_seed42_fold2] epoch  48/60 loss=0.1715 val_dice=0.9029 (3s)
+[unet_seed42_fold2] epoch  49/60 loss=0.1818 val_dice=0.9033 (3s)
+[unet_seed42_fold2] epoch  50/60 loss=0.1650 val_dice=0.9044 (3s)
+[unet_seed42_fold2] epoch  51/60 loss=0.1761 val_dice=0.9032 (3s)
+[unet_seed42_fold2] epoch  52/60 loss=0.1573 val_dice=0.9031 (3s)
+[unet_seed42_fold2] epoch  53/60 loss=0.1644 val_dice=0.9047 (3s)
+[unet_seed42_fold2] epoch  54/60 loss=0.1706 val_dice=0.9035 (4s)
+[unet_seed42_fold2] epoch  55/60 loss=0.1634 val_dice=0.9036 (3s)
+[unet_seed42_fold2] epoch  56/60 loss=0.1632 val_dice=0.9027 (4s)
+[unet_seed42_fold2] epoch  57/60 loss=0.1618 val_dice=0.9029 (3s)
+[unet_seed42_fold2] epoch  58/60 loss=0.1545 val_dice=0.9037 (4s)
+[unet_seed42_fold2] epoch  59/60 loss=0.1677 val_dice=0.9031 (3s)
+[unet_seed42_fold2] epoch  60/60 loss=0.1614 val_dice=0.9036 (3s)
+[unet_seed42_fold2] done. best val Dice 0.9047 @ epoch 53
+== eval unet_seed42_fold2
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8680  0.7856       0.5957
+cvc-clinicdb  0.8561  0.7806       0.5709
+cvc-colondb   0.7271  0.6473       0.4546
+etis-larib    0.6943  0.6224       0.5141
+kvasir-seg    0.9082  0.8519       0.6801
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold2.csv
+== eval unet_seed42_fold2 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8795  0.8011       0.6297
+cvc-clinicdb  0.8630  0.7890       0.5843
+cvc-colondb   0.7266  0.6503       0.4699
+etis-larib    0.6965  0.6273       0.5209
+kvasir-seg    0.9119  0.8597       0.6946
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold2_tta.csv
+== train unet_seed42_fold3
+[unet_seed42_fold3] device=cuda params=24.44M train=700 val=100 amp=True
+[unet_seed42_fold3] epoch   1/60 loss=1.2189 val_dice=0.6163 (4s)
+[unet_seed42_fold3] epoch   2/60 loss=0.9653 val_dice=0.7415 (3s)
+[unet_seed42_fold3] epoch   3/60 loss=0.8777 val_dice=0.8033 (3s)
+[unet_seed42_fold3] epoch   4/60 loss=0.8009 val_dice=0.8246 (3s)
+[unet_seed42_fold3] epoch   5/60 loss=0.7458 val_dice=0.8274 (3s)
+[unet_seed42_fold3] epoch   6/60 loss=0.6877 val_dice=0.8429 (3s)
+[unet_seed42_fold3] epoch   7/60 loss=0.6347 val_dice=0.8398 (3s)
+[unet_seed42_fold3] epoch   8/60 loss=0.5880 val_dice=0.8687 (3s)
+[unet_seed42_fold3] epoch   9/60 loss=0.5522 val_dice=0.8574 (3s)
+[unet_seed42_fold3] epoch  10/60 loss=0.5307 val_dice=0.8542 (3s)
+[unet_seed42_fold3] epoch  11/60 loss=0.4883 val_dice=0.8756 (3s)
+[unet_seed42_fold3] epoch  12/60 loss=0.4550 val_dice=0.8763 (3s)
+[unet_seed42_fold3] epoch  13/60 loss=0.4191 val_dice=0.8651 (3s)
+[unet_seed42_fold3] epoch  14/60 loss=0.4139 val_dice=0.8694 (4s)
+[unet_seed42_fold3] epoch  15/60 loss=0.3897 val_dice=0.8855 (3s)
+[unet_seed42_fold3] epoch  16/60 loss=0.3822 val_dice=0.8754 (3s)
+[unet_seed42_fold3] epoch  17/60 loss=0.3690 val_dice=0.8855 (4s)
+[unet_seed42_fold3] epoch  18/60 loss=0.3420 val_dice=0.8706 (3s)
+[unet_seed42_fold3] epoch  19/60 loss=0.3432 val_dice=0.8874 (4s)
+[unet_seed42_fold3] epoch  20/60 loss=0.3250 val_dice=0.8797 (4s)
+[unet_seed42_fold3] epoch  21/60 loss=0.3112 val_dice=0.8717 (3s)
+[unet_seed42_fold3] epoch  22/60 loss=0.3034 val_dice=0.8715 (4s)
+[unet_seed42_fold3] epoch  23/60 loss=0.2824 val_dice=0.8647 (4s)
+[unet_seed42_fold3] epoch  24/60 loss=0.2867 val_dice=0.8732 (4s)
+[unet_seed42_fold3] epoch  25/60 loss=0.2703 val_dice=0.8828 (4s)
+[unet_seed42_fold3] epoch  26/60 loss=0.2625 val_dice=0.8776 (4s)
+[unet_seed42_fold3] epoch  27/60 loss=0.2492 val_dice=0.8804 (3s)
+[unet_seed42_fold3] epoch  28/60 loss=0.2607 val_dice=0.8818 (4s)
+[unet_seed42_fold3] epoch  29/60 loss=0.2567 val_dice=0.8845 (4s)
+[unet_seed42_fold3] epoch  30/60 loss=0.2437 val_dice=0.8897 (4s)
+[unet_seed42_fold3] epoch  31/60 loss=0.2174 val_dice=0.8932 (4s)
+[unet_seed42_fold3] epoch  32/60 loss=0.2226 val_dice=0.8862 (3s)
+[unet_seed42_fold3] epoch  33/60 loss=0.2275 val_dice=0.8868 (4s)
+[unet_seed42_fold3] epoch  34/60 loss=0.2204 val_dice=0.8883 (4s)
+[unet_seed42_fold3] epoch  35/60 loss=0.2133 val_dice=0.8892 (4s)
+[unet_seed42_fold3] epoch  36/60 loss=0.2082 val_dice=0.8867 (3s)
+[unet_seed42_fold3] epoch  37/60 loss=0.2055 val_dice=0.8923 (3s)
+[unet_seed42_fold3] epoch  38/60 loss=0.2006 val_dice=0.8883 (3s)
+[unet_seed42_fold3] epoch  39/60 loss=0.1972 val_dice=0.8821 (3s)
+[unet_seed42_fold3] epoch  40/60 loss=0.2032 val_dice=0.8854 (3s)
+[unet_seed42_fold3] epoch  41/60 loss=0.1927 val_dice=0.8832 (4s)
+[unet_seed42_fold3] epoch  42/60 loss=0.1944 val_dice=0.8896 (3s)
+[unet_seed42_fold3] epoch  43/60 loss=0.1901 val_dice=0.8913 (4s)
+[unet_seed42_fold3] epoch  44/60 loss=0.2021 val_dice=0.8895 (4s)
+[unet_seed42_fold3] epoch  45/60 loss=0.1863 val_dice=0.8872 (4s)
+[unet_seed42_fold3] epoch  46/60 loss=0.1743 val_dice=0.8835 (4s)
+[unet_seed42_fold3] early stop at epoch 46 (best 0.8932 @ 31)
+[unet_seed42_fold3] done. best val Dice 0.8932 @ epoch 31
+== eval unet_seed42_fold3
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8495  0.7665       0.5904
+cvc-clinicdb  0.8347  0.7586       0.5460
+cvc-colondb   0.6990  0.6196       0.4456
+etis-larib    0.6597  0.5817       0.4820
+kvasir-seg    0.8894  0.8301       0.6614
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold3.csv
+== eval unet_seed42_fold3 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8649  0.7872       0.6362
+cvc-clinicdb  0.8425  0.7691       0.5638
+cvc-colondb   0.6971  0.6229       0.4527
+etis-larib    0.6968  0.6219       0.5210
+kvasir-seg    0.8970  0.8427       0.6905
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold3_tta.csv
+== train unet_seed42_fold4
+[unet_seed42_fold4] device=cuda params=24.44M train=700 val=100 amp=True
+[unet_seed42_fold4] epoch   1/60 loss=1.2033 val_dice=0.6386 (4s)
+[unet_seed42_fold4] epoch   2/60 loss=0.9689 val_dice=0.7468 (3s)
+[unet_seed42_fold4] epoch   3/60 loss=0.8806 val_dice=0.8147 (3s)
+[unet_seed42_fold4] epoch   4/60 loss=0.7995 val_dice=0.8097 (3s)
+[unet_seed42_fold4] epoch   5/60 loss=0.7354 val_dice=0.8425 (3s)
+[unet_seed42_fold4] epoch   6/60 loss=0.6776 val_dice=0.8515 (3s)
+[unet_seed42_fold4] epoch   7/60 loss=0.6174 val_dice=0.8568 (3s)
+[unet_seed42_fold4] epoch   8/60 loss=0.5839 val_dice=0.8554 (3s)
+[unet_seed42_fold4] epoch   9/60 loss=0.5402 val_dice=0.8645 (3s)
+[unet_seed42_fold4] epoch  10/60 loss=0.5118 val_dice=0.8759 (3s)
+[unet_seed42_fold4] epoch  11/60 loss=0.4770 val_dice=0.8778 (3s)
+[unet_seed42_fold4] epoch  12/60 loss=0.4422 val_dice=0.8786 (3s)
+[unet_seed42_fold4] epoch  13/60 loss=0.4255 val_dice=0.8824 (3s)
+[unet_seed42_fold4] epoch  14/60 loss=0.4060 val_dice=0.8743 (3s)
+[unet_seed42_fold4] epoch  15/60 loss=0.3810 val_dice=0.8679 (3s)
+[unet_seed42_fold4] epoch  16/60 loss=0.3615 val_dice=0.8755 (3s)
+[unet_seed42_fold4] epoch  17/60 loss=0.3447 val_dice=0.8733 (3s)
+[unet_seed42_fold4] epoch  18/60 loss=0.3449 val_dice=0.8754 (3s)
+[unet_seed42_fold4] epoch  19/60 loss=0.3302 val_dice=0.8809 (3s)
+[unet_seed42_fold4] epoch  20/60 loss=0.3077 val_dice=0.8745 (3s)
+[unet_seed42_fold4] epoch  21/60 loss=0.3082 val_dice=0.8970 (3s)
+[unet_seed42_fold4] epoch  22/60 loss=0.3008 val_dice=0.8960 (3s)
+[unet_seed42_fold4] epoch  23/60 loss=0.2849 val_dice=0.8860 (4s)
+[unet_seed42_fold4] epoch  24/60 loss=0.2832 val_dice=0.8920 (3s)
+[unet_seed42_fold4] epoch  25/60 loss=0.2622 val_dice=0.8825 (4s)
+[unet_seed42_fold4] epoch  26/60 loss=0.2554 val_dice=0.8815 (4s)
+[unet_seed42_fold4] epoch  27/60 loss=0.2438 val_dice=0.8840 (3s)
+[unet_seed42_fold4] epoch  28/60 loss=0.2480 val_dice=0.8954 (3s)
+[unet_seed42_fold4] epoch  29/60 loss=0.2182 val_dice=0.8903 (3s)
+[unet_seed42_fold4] epoch  30/60 loss=0.2268 val_dice=0.8978 (3s)
+[unet_seed42_fold4] epoch  31/60 loss=0.2350 val_dice=0.8944 (3s)
+[unet_seed42_fold4] epoch  32/60 loss=0.2184 val_dice=0.8967 (3s)
+[unet_seed42_fold4] epoch  33/60 loss=0.2087 val_dice=0.9028 (3s)
+[unet_seed42_fold4] epoch  34/60 loss=0.2142 val_dice=0.8878 (3s)
+[unet_seed42_fold4] epoch  35/60 loss=0.2213 val_dice=0.8913 (3s)
+[unet_seed42_fold4] epoch  36/60 loss=0.2033 val_dice=0.8986 (3s)
+[unet_seed42_fold4] epoch  37/60 loss=0.2012 val_dice=0.8999 (3s)
+[unet_seed42_fold4] epoch  38/60 loss=0.1923 val_dice=0.9026 (3s)
+[unet_seed42_fold4] epoch  39/60 loss=0.2001 val_dice=0.9010 (3s)
+[unet_seed42_fold4] epoch  40/60 loss=0.1860 val_dice=0.9055 (3s)
+[unet_seed42_fold4] epoch  41/60 loss=0.1811 val_dice=0.9055 (3s)
+[unet_seed42_fold4] epoch  42/60 loss=0.1823 val_dice=0.9095 (3s)
+[unet_seed42_fold4] epoch  43/60 loss=0.1720 val_dice=0.9073 (3s)
+[unet_seed42_fold4] epoch  44/60 loss=0.1724 val_dice=0.9052 (3s)
+[unet_seed42_fold4] epoch  45/60 loss=0.1666 val_dice=0.9034 (3s)
+[unet_seed42_fold4] epoch  46/60 loss=0.1641 val_dice=0.9069 (3s)
+[unet_seed42_fold4] epoch  47/60 loss=0.1692 val_dice=0.9079 (3s)
+[unet_seed42_fold4] epoch  48/60 loss=0.1669 val_dice=0.9033 (3s)
+[unet_seed42_fold4] epoch  49/60 loss=0.1745 val_dice=0.9062 (3s)
+[unet_seed42_fold4] epoch  50/60 loss=0.1683 val_dice=0.9031 (3s)
+[unet_seed42_fold4] epoch  51/60 loss=0.1594 val_dice=0.9036 (3s)
+[unet_seed42_fold4] epoch  52/60 loss=0.1650 val_dice=0.9044 (4s)
+[unet_seed42_fold4] epoch  53/60 loss=0.1649 val_dice=0.9030 (3s)
+[unet_seed42_fold4] epoch  54/60 loss=0.1693 val_dice=0.9043 (3s)
+[unet_seed42_fold4] epoch  55/60 loss=0.1621 val_dice=0.9048 (3s)
+[unet_seed42_fold4] epoch  56/60 loss=0.1574 val_dice=0.9045 (3s)
+[unet_seed42_fold4] epoch  57/60 loss=0.1597 val_dice=0.9045 (3s)
+[unet_seed42_fold4] early stop at epoch 57 (best 0.9095 @ 42)
+[unet_seed42_fold4] done. best val Dice 0.9095 @ epoch 42
+== eval unet_seed42_fold4
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8489  0.7650       0.5782
+cvc-clinicdb  0.8444  0.7668       0.5574
+cvc-colondb   0.7145  0.6320       0.4483
+etis-larib    0.6962  0.6178       0.4995
+kvasir-seg    0.9011  0.8398       0.6698
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold4.csv
+== eval unet_seed42_fold4 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8770  0.8015       0.6260
+cvc-clinicdb  0.8566  0.7821       0.5756
+cvc-colondb   0.7185  0.6419       0.4648
+etis-larib    0.7065  0.6324       0.5205
+kvasir-seg    0.9020  0.8444       0.6804
+
+Wrote polypseg/outputs/cv/perimage_unet_seed42_fold4_tta.csv
+== train unetpp_seed42_fold0
+[unetpp_seed42_fold0] device=cuda params=26.08M train=700 val=100 amp=True
+[unetpp_seed42_fold0] epoch   1/60 loss=0.9786 val_dice=0.7103 (7s)
+[unetpp_seed42_fold0] epoch   2/60 loss=0.7339 val_dice=0.7581 (6s)
+[unetpp_seed42_fold0] epoch   3/60 loss=0.6100 val_dice=0.7583 (6s)
+[unetpp_seed42_fold0] epoch   4/60 loss=0.5350 val_dice=0.8031 (6s)
+[unetpp_seed42_fold0] epoch   5/60 loss=0.4888 val_dice=0.8267 (6s)
+[unetpp_seed42_fold0] epoch   6/60 loss=0.4439 val_dice=0.8371 (6s)
+[unetpp_seed42_fold0] epoch   7/60 loss=0.3976 val_dice=0.8138 (6s)
+[unetpp_seed42_fold0] epoch   8/60 loss=0.3959 val_dice=0.8324 (6s)
+[unetpp_seed42_fold0] epoch   9/60 loss=0.3766 val_dice=0.8454 (6s)
+[unetpp_seed42_fold0] epoch  10/60 loss=0.3482 val_dice=0.8237 (6s)
+[unetpp_seed42_fold0] epoch  11/60 loss=0.3323 val_dice=0.8454 (6s)
+[unetpp_seed42_fold0] epoch  12/60 loss=0.3144 val_dice=0.8381 (6s)
+[unetpp_seed42_fold0] epoch  13/60 loss=0.3058 val_dice=0.8490 (6s)
+[unetpp_seed42_fold0] epoch  14/60 loss=0.2834 val_dice=0.8429 (6s)
+[unetpp_seed42_fold0] epoch  15/60 loss=0.2848 val_dice=0.8649 (6s)
+[unetpp_seed42_fold0] epoch  16/60 loss=0.2807 val_dice=0.8566 (6s)
+[unetpp_seed42_fold0] epoch  17/60 loss=0.2757 val_dice=0.8335 (6s)
+[unetpp_seed42_fold0] epoch  18/60 loss=0.2580 val_dice=0.8374 (6s)
+[unetpp_seed42_fold0] epoch  19/60 loss=0.2605 val_dice=0.8482 (6s)
+[unetpp_seed42_fold0] epoch  20/60 loss=0.2607 val_dice=0.8630 (6s)
+[unetpp_seed42_fold0] epoch  21/60 loss=0.2438 val_dice=0.8513 (6s)
+[unetpp_seed42_fold0] epoch  22/60 loss=0.2289 val_dice=0.8730 (6s)
+[unetpp_seed42_fold0] epoch  23/60 loss=0.2176 val_dice=0.8699 (6s)
+[unetpp_seed42_fold0] epoch  24/60 loss=0.2275 val_dice=0.8688 (6s)
+[unetpp_seed42_fold0] epoch  25/60 loss=0.2221 val_dice=0.8719 (6s)
+[unetpp_seed42_fold0] epoch  26/60 loss=0.2060 val_dice=0.8687 (6s)
+[unetpp_seed42_fold0] epoch  27/60 loss=0.1958 val_dice=0.8692 (6s)
+[unetpp_seed42_fold0] epoch  28/60 loss=0.1889 val_dice=0.8703 (6s)
+[unetpp_seed42_fold0] epoch  29/60 loss=0.2078 val_dice=0.8626 (6s)
+[unetpp_seed42_fold0] epoch  30/60 loss=0.1906 val_dice=0.8635 (6s)
+[unetpp_seed42_fold0] epoch  31/60 loss=0.1764 val_dice=0.8704 (6s)
+[unetpp_seed42_fold0] epoch  32/60 loss=0.1814 val_dice=0.8690 (6s)
+[unetpp_seed42_fold0] epoch  33/60 loss=0.1800 val_dice=0.8704 (6s)
+[unetpp_seed42_fold0] epoch  34/60 loss=0.1847 val_dice=0.8718 (6s)
+[unetpp_seed42_fold0] epoch  35/60 loss=0.1789 val_dice=0.8740 (6s)
+[unetpp_seed42_fold0] epoch  36/60 loss=0.1753 val_dice=0.8744 (6s)
+[unetpp_seed42_fold0] epoch  37/60 loss=0.1698 val_dice=0.8787 (6s)
+[unetpp_seed42_fold0] epoch  38/60 loss=0.1636 val_dice=0.8932 (6s)
+[unetpp_seed42_fold0] epoch  39/60 loss=0.1609 val_dice=0.8831 (6s)
+[unetpp_seed42_fold0] epoch  40/60 loss=0.1626 val_dice=0.8784 (6s)
+[unetpp_seed42_fold0] epoch  41/60 loss=0.1582 val_dice=0.8871 (6s)
+[unetpp_seed42_fold0] epoch  42/60 loss=0.1612 val_dice=0.8802 (6s)
+[unetpp_seed42_fold0] epoch  43/60 loss=0.1464 val_dice=0.8810 (6s)
+[unetpp_seed42_fold0] epoch  44/60 loss=0.1528 val_dice=0.8785 (6s)
+[unetpp_seed42_fold0] epoch  45/60 loss=0.1558 val_dice=0.8805 (6s)
+[unetpp_seed42_fold0] epoch  46/60 loss=0.1460 val_dice=0.8798 (6s)
+[unetpp_seed42_fold0] epoch  47/60 loss=0.1582 val_dice=0.8795 (6s)
+[unetpp_seed42_fold0] epoch  48/60 loss=0.1601 val_dice=0.8800 (6s)
+[unetpp_seed42_fold0] epoch  49/60 loss=0.1441 val_dice=0.8807 (6s)
+[unetpp_seed42_fold0] epoch  50/60 loss=0.1446 val_dice=0.8799 (6s)
+[unetpp_seed42_fold0] epoch  51/60 loss=0.1481 val_dice=0.8825 (6s)
+[unetpp_seed42_fold0] epoch  52/60 loss=0.1469 val_dice=0.8847 (6s)
+[unetpp_seed42_fold0] epoch  53/60 loss=0.1495 val_dice=0.8811 (6s)
+[unetpp_seed42_fold0] early stop at epoch 53 (best 0.8932 @ 38)
+[unetpp_seed42_fold0] done. best val Dice 0.8932 @ epoch 38
+== eval unetpp_seed42_fold0
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8417  0.7642       0.5874
+cvc-clinicdb  0.8515  0.7744       0.5640
+cvc-colondb   0.7145  0.6290       0.4441
+etis-larib    0.6672  0.5964       0.4965
+kvasir-seg    0.9130  0.8615       0.6937
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold0.csv
+== eval unetpp_seed42_fold0 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8593  0.7799       0.6132
+cvc-clinicdb  0.8603  0.7858       0.5823
+cvc-colondb   0.7196  0.6354       0.4489
+etis-larib    0.6837  0.6162       0.5209
+kvasir-seg    0.9112  0.8600       0.7044
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold0_tta.csv
+== train unetpp_seed42_fold1
+[unetpp_seed42_fold1] device=cuda params=26.08M train=700 val=100 amp=True
+[unetpp_seed42_fold1] epoch   1/60 loss=0.9870 val_dice=0.8007 (7s)
+[unetpp_seed42_fold1] epoch   2/60 loss=0.7161 val_dice=0.8179 (6s)
+[unetpp_seed42_fold1] epoch   3/60 loss=0.6130 val_dice=0.8549 (6s)
+[unetpp_seed42_fold1] epoch   4/60 loss=0.5283 val_dice=0.8533 (6s)
+[unetpp_seed42_fold1] epoch   5/60 loss=0.4640 val_dice=0.8567 (6s)
+[unetpp_seed42_fold1] epoch   6/60 loss=0.4385 val_dice=0.8568 (6s)
+[unetpp_seed42_fold1] epoch   7/60 loss=0.4051 val_dice=0.8555 (6s)
+[unetpp_seed42_fold1] epoch   8/60 loss=0.3708 val_dice=0.8786 (6s)
+[unetpp_seed42_fold1] epoch   9/60 loss=0.3474 val_dice=0.8856 (6s)
+[unetpp_seed42_fold1] epoch  10/60 loss=0.3359 val_dice=0.8741 (6s)
+[unetpp_seed42_fold1] epoch  11/60 loss=0.3166 val_dice=0.8835 (6s)
+[unetpp_seed42_fold1] epoch  12/60 loss=0.2976 val_dice=0.8814 (6s)
+[unetpp_seed42_fold1] epoch  13/60 loss=0.3016 val_dice=0.8742 (6s)
+[unetpp_seed42_fold1] epoch  14/60 loss=0.2785 val_dice=0.8960 (6s)
+[unetpp_seed42_fold1] epoch  15/60 loss=0.2733 val_dice=0.8964 (6s)
+[unetpp_seed42_fold1] epoch  16/60 loss=0.2549 val_dice=0.8954 (6s)
+[unetpp_seed42_fold1] epoch  17/60 loss=0.2573 val_dice=0.8795 (6s)
+[unetpp_seed42_fold1] epoch  18/60 loss=0.2512 val_dice=0.8952 (6s)
+[unetpp_seed42_fold1] epoch  19/60 loss=0.2581 val_dice=0.8591 (6s)
+[unetpp_seed42_fold1] epoch  20/60 loss=0.2424 val_dice=0.9018 (6s)
+[unetpp_seed42_fold1] epoch  21/60 loss=0.2261 val_dice=0.8904 (6s)
+[unetpp_seed42_fold1] epoch  22/60 loss=0.2387 val_dice=0.8890 (6s)
+[unetpp_seed42_fold1] epoch  23/60 loss=0.2295 val_dice=0.8957 (6s)
+[unetpp_seed42_fold1] epoch  24/60 loss=0.2158 val_dice=0.8930 (6s)
+[unetpp_seed42_fold1] epoch  25/60 loss=0.2199 val_dice=0.8964 (6s)
+[unetpp_seed42_fold1] epoch  26/60 loss=0.2024 val_dice=0.8984 (6s)
+[unetpp_seed42_fold1] epoch  27/60 loss=0.2085 val_dice=0.9004 (6s)
+[unetpp_seed42_fold1] epoch  28/60 loss=0.1964 val_dice=0.9095 (6s)
+[unetpp_seed42_fold1] epoch  29/60 loss=0.1961 val_dice=0.8990 (6s)
+[unetpp_seed42_fold1] epoch  30/60 loss=0.1940 val_dice=0.8999 (6s)
+[unetpp_seed42_fold1] epoch  31/60 loss=0.1906 val_dice=0.9044 (6s)
+[unetpp_seed42_fold1] epoch  32/60 loss=0.1872 val_dice=0.9076 (6s)
+[unetpp_seed42_fold1] epoch  33/60 loss=0.1741 val_dice=0.9114 (6s)
+[unetpp_seed42_fold1] epoch  34/60 loss=0.1798 val_dice=0.9031 (6s)
+[unetpp_seed42_fold1] epoch  35/60 loss=0.1757 val_dice=0.9151 (6s)
+[unetpp_seed42_fold1] epoch  36/60 loss=0.1725 val_dice=0.9081 (6s)
+[unetpp_seed42_fold1] epoch  37/60 loss=0.1754 val_dice=0.9115 (6s)
+[unetpp_seed42_fold1] epoch  38/60 loss=0.1586 val_dice=0.9158 (6s)
+[unetpp_seed42_fold1] epoch  39/60 loss=0.1703 val_dice=0.9125 (6s)
+[unetpp_seed42_fold1] epoch  40/60 loss=0.1658 val_dice=0.9087 (6s)
+[unetpp_seed42_fold1] epoch  41/60 loss=0.1598 val_dice=0.9122 (6s)
+[unetpp_seed42_fold1] epoch  42/60 loss=0.1588 val_dice=0.9128 (6s)
+[unetpp_seed42_fold1] epoch  43/60 loss=0.1629 val_dice=0.9169 (6s)
+[unetpp_seed42_fold1] epoch  44/60 loss=0.1572 val_dice=0.9209 (6s)
+[unetpp_seed42_fold1] epoch  45/60 loss=0.1536 val_dice=0.9194 (6s)
+[unetpp_seed42_fold1] epoch  46/60 loss=0.1529 val_dice=0.9176 (6s)
+[unetpp_seed42_fold1] epoch  47/60 loss=0.1580 val_dice=0.9206 (6s)
+[unetpp_seed42_fold1] epoch  48/60 loss=0.1492 val_dice=0.9190 (6s)
+[unetpp_seed42_fold1] epoch  49/60 loss=0.1414 val_dice=0.9178 (6s)
+[unetpp_seed42_fold1] epoch  50/60 loss=0.1515 val_dice=0.9177 (6s)
+[unetpp_seed42_fold1] epoch  51/60 loss=0.1467 val_dice=0.9203 (6s)
+[unetpp_seed42_fold1] epoch  52/60 loss=0.1381 val_dice=0.9216 (6s)
+[unetpp_seed42_fold1] epoch  53/60 loss=0.1360 val_dice=0.9211 (6s)
+[unetpp_seed42_fold1] epoch  54/60 loss=0.1489 val_dice=0.9210 (6s)
+[unetpp_seed42_fold1] epoch  55/60 loss=0.1419 val_dice=0.9211 (6s)
+[unetpp_seed42_fold1] epoch  56/60 loss=0.1406 val_dice=0.9214 (6s)
+[unetpp_seed42_fold1] epoch  57/60 loss=0.1359 val_dice=0.9223 (6s)
+[unetpp_seed42_fold1] epoch  58/60 loss=0.1365 val_dice=0.9217 (6s)
+[unetpp_seed42_fold1] epoch  59/60 loss=0.1512 val_dice=0.9220 (6s)
+[unetpp_seed42_fold1] epoch  60/60 loss=0.1433 val_dice=0.9204 (6s)
+[unetpp_seed42_fold1] done. best val Dice 0.9223 @ epoch 57
+== eval unetpp_seed42_fold1
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8680  0.7893       0.6199
+cvc-clinicdb  0.8601  0.7860       0.5915
+cvc-colondb   0.7061  0.6320       0.4683
+etis-larib    0.6939  0.6192       0.5408
+kvasir-seg    0.8988  0.8448       0.6999
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold1.csv
+== eval unetpp_seed42_fold1 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8847  0.8090       0.6458
+cvc-clinicdb  0.8659  0.7949       0.6043
+cvc-colondb   0.7188  0.6462       0.4883
+etis-larib    0.6962  0.6262       0.5576
+kvasir-seg    0.9060  0.8529       0.7108
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold1_tta.csv
+== train unetpp_seed42_fold2
+[unetpp_seed42_fold2] device=cuda params=26.08M train=700 val=100 amp=True
+[unetpp_seed42_fold2] epoch   1/60 loss=0.9790 val_dice=0.7493 (6s)
+[unetpp_seed42_fold2] epoch   2/60 loss=0.7192 val_dice=0.8225 (6s)
+[unetpp_seed42_fold2] epoch   3/60 loss=0.6069 val_dice=0.8171 (6s)
+[unetpp_seed42_fold2] epoch   4/60 loss=0.5322 val_dice=0.8460 (6s)
+[unetpp_seed42_fold2] epoch   5/60 loss=0.4824 val_dice=0.8457 (6s)
+[unetpp_seed42_fold2] epoch   6/60 loss=0.4573 val_dice=0.8596 (6s)
+[unetpp_seed42_fold2] epoch   7/60 loss=0.4177 val_dice=0.8507 (6s)
+[unetpp_seed42_fold2] epoch   8/60 loss=0.3896 val_dice=0.8598 (6s)
+[unetpp_seed42_fold2] epoch   9/60 loss=0.3537 val_dice=0.8595 (6s)
+[unetpp_seed42_fold2] epoch  10/60 loss=0.3604 val_dice=0.8792 (6s)
+[unetpp_seed42_fold2] epoch  11/60 loss=0.3269 val_dice=0.8588 (6s)
+[unetpp_seed42_fold2] epoch  12/60 loss=0.3258 val_dice=0.8673 (6s)
+[unetpp_seed42_fold2] epoch  13/60 loss=0.2937 val_dice=0.8718 (6s)
+[unetpp_seed42_fold2] epoch  14/60 loss=0.3281 val_dice=0.8704 (6s)
+[unetpp_seed42_fold2] epoch  15/60 loss=0.2792 val_dice=0.8754 (6s)
+[unetpp_seed42_fold2] epoch  16/60 loss=0.2827 val_dice=0.8682 (6s)
+[unetpp_seed42_fold2] epoch  17/60 loss=0.2794 val_dice=0.8745 (6s)
+[unetpp_seed42_fold2] epoch  18/60 loss=0.2756 val_dice=0.8833 (6s)
+[unetpp_seed42_fold2] epoch  19/60 loss=0.2524 val_dice=0.8809 (6s)
+[unetpp_seed42_fold2] epoch  20/60 loss=0.2510 val_dice=0.9001 (6s)
+[unetpp_seed42_fold2] epoch  21/60 loss=0.2432 val_dice=0.8884 (6s)
+[unetpp_seed42_fold2] epoch  22/60 loss=0.2427 val_dice=0.8850 (6s)
+[unetpp_seed42_fold2] epoch  23/60 loss=0.2472 val_dice=0.8835 (6s)
+[unetpp_seed42_fold2] epoch  24/60 loss=0.2352 val_dice=0.8948 (6s)
+[unetpp_seed42_fold2] epoch  25/60 loss=0.2254 val_dice=0.8963 (6s)
+[unetpp_seed42_fold2] epoch  26/60 loss=0.2074 val_dice=0.8823 (6s)
+[unetpp_seed42_fold2] epoch  27/60 loss=0.2286 val_dice=0.8855 (6s)
+[unetpp_seed42_fold2] epoch  28/60 loss=0.2290 val_dice=0.8838 (6s)
+[unetpp_seed42_fold2] epoch  29/60 loss=0.2029 val_dice=0.8958 (6s)
+[unetpp_seed42_fold2] epoch  30/60 loss=0.2092 val_dice=0.8865 (6s)
+[unetpp_seed42_fold2] epoch  31/60 loss=0.2048 val_dice=0.8956 (6s)
+[unetpp_seed42_fold2] epoch  32/60 loss=0.1933 val_dice=0.8942 (6s)
+[unetpp_seed42_fold2] epoch  33/60 loss=0.1937 val_dice=0.8911 (6s)
+[unetpp_seed42_fold2] epoch  34/60 loss=0.1900 val_dice=0.8890 (6s)
+[unetpp_seed42_fold2] epoch  35/60 loss=0.1892 val_dice=0.8860 (6s)
+[unetpp_seed42_fold2] early stop at epoch 35 (best 0.9001 @ 20)
+[unetpp_seed42_fold2] done. best val Dice 0.9001 @ epoch 20
+== eval unetpp_seed42_fold2
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8304  0.7418       0.5125
+cvc-clinicdb  0.8458  0.7614       0.5093
+cvc-colondb   0.7384  0.6445       0.4148
+etis-larib    0.6082  0.5245       0.4053
+kvasir-seg    0.8894  0.8258       0.6276
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold2.csv
+== eval unetpp_seed42_fold2 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8638  0.7768       0.5495
+cvc-clinicdb  0.8527  0.7714       0.5227
+cvc-colondb   0.7654  0.6719       0.4485
+etis-larib    0.6270  0.5483       0.4392
+kvasir-seg    0.9001  0.8405       0.6512
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold2_tta.csv
+== train unetpp_seed42_fold3
+[unetpp_seed42_fold3] device=cuda params=26.08M train=700 val=100 amp=True
+[unetpp_seed42_fold3] epoch   1/60 loss=0.9725 val_dice=0.7656 (7s)
+[unetpp_seed42_fold3] epoch   2/60 loss=0.7099 val_dice=0.7915 (6s)
+[unetpp_seed42_fold3] epoch   3/60 loss=0.6012 val_dice=0.8540 (6s)
+[unetpp_seed42_fold3] epoch   4/60 loss=0.5321 val_dice=0.8587 (6s)
+[unetpp_seed42_fold3] epoch   5/60 loss=0.4740 val_dice=0.8513 (6s)
+[unetpp_seed42_fold3] epoch   6/60 loss=0.4348 val_dice=0.8675 (6s)
+[unetpp_seed42_fold3] epoch   7/60 loss=0.4043 val_dice=0.8452 (6s)
+[unetpp_seed42_fold3] epoch   8/60 loss=0.4001 val_dice=0.8753 (6s)
+[unetpp_seed42_fold3] epoch   9/60 loss=0.3622 val_dice=0.8730 (6s)
+[unetpp_seed42_fold3] epoch  10/60 loss=0.3262 val_dice=0.8638 (6s)
+[unetpp_seed42_fold3] epoch  11/60 loss=0.3000 val_dice=0.8656 (6s)
+[unetpp_seed42_fold3] epoch  12/60 loss=0.2886 val_dice=0.8914 (6s)
+[unetpp_seed42_fold3] epoch  13/60 loss=0.2916 val_dice=0.8717 (6s)
+[unetpp_seed42_fold3] epoch  14/60 loss=0.2806 val_dice=0.8903 (6s)
+[unetpp_seed42_fold3] epoch  15/60 loss=0.2812 val_dice=0.8801 (6s)
+[unetpp_seed42_fold3] epoch  16/60 loss=0.2719 val_dice=0.8736 (6s)
+[unetpp_seed42_fold3] epoch  17/60 loss=0.2575 val_dice=0.8840 (6s)
+[unetpp_seed42_fold3] epoch  18/60 loss=0.2505 val_dice=0.8919 (6s)
+[unetpp_seed42_fold3] epoch  19/60 loss=0.2452 val_dice=0.8828 (6s)
+[unetpp_seed42_fold3] epoch  20/60 loss=0.2314 val_dice=0.8835 (6s)
+[unetpp_seed42_fold3] epoch  21/60 loss=0.2330 val_dice=0.8820 (6s)
+[unetpp_seed42_fold3] epoch  22/60 loss=0.2257 val_dice=0.8892 (6s)
+[unetpp_seed42_fold3] epoch  23/60 loss=0.2106 val_dice=0.8829 (6s)
+[unetpp_seed42_fold3] epoch  24/60 loss=0.2153 val_dice=0.8830 (6s)
+[unetpp_seed42_fold3] epoch  25/60 loss=0.2075 val_dice=0.8867 (6s)
+[unetpp_seed42_fold3] epoch  26/60 loss=0.2152 val_dice=0.8824 (6s)
+[unetpp_seed42_fold3] epoch  27/60 loss=0.1990 val_dice=0.8900 (6s)
+[unetpp_seed42_fold3] epoch  28/60 loss=0.2076 val_dice=0.8914 (6s)
+[unetpp_seed42_fold3] epoch  29/60 loss=0.2055 val_dice=0.8814 (6s)
+[unetpp_seed42_fold3] epoch  30/60 loss=0.2029 val_dice=0.8857 (6s)
+[unetpp_seed42_fold3] epoch  31/60 loss=0.1836 val_dice=0.8917 (6s)
+[unetpp_seed42_fold3] epoch  32/60 loss=0.1730 val_dice=0.8929 (6s)
+[unetpp_seed42_fold3] epoch  33/60 loss=0.1783 val_dice=0.8881 (6s)
+[unetpp_seed42_fold3] epoch  34/60 loss=0.1866 val_dice=0.8920 (6s)
+[unetpp_seed42_fold3] epoch  35/60 loss=0.1789 val_dice=0.8913 (6s)
+[unetpp_seed42_fold3] epoch  36/60 loss=0.1708 val_dice=0.8905 (6s)
+[unetpp_seed42_fold3] epoch  37/60 loss=0.1736 val_dice=0.8916 (6s)
+[unetpp_seed42_fold3] epoch  38/60 loss=0.1662 val_dice=0.8925 (6s)
+[unetpp_seed42_fold3] epoch  39/60 loss=0.1691 val_dice=0.8957 (6s)
+[unetpp_seed42_fold3] epoch  40/60 loss=0.1486 val_dice=0.8947 (6s)
+[unetpp_seed42_fold3] epoch  41/60 loss=0.1565 val_dice=0.8929 (6s)
+[unetpp_seed42_fold3] epoch  42/60 loss=0.1602 val_dice=0.8868 (6s)
+[unetpp_seed42_fold3] epoch  43/60 loss=0.1440 val_dice=0.8901 (6s)
+[unetpp_seed42_fold3] epoch  44/60 loss=0.1510 val_dice=0.8920 (6s)
+[unetpp_seed42_fold3] epoch  45/60 loss=0.1428 val_dice=0.8941 (6s)
+[unetpp_seed42_fold3] epoch  46/60 loss=0.1516 val_dice=0.8931 (6s)
+[unetpp_seed42_fold3] epoch  47/60 loss=0.1482 val_dice=0.8923 (6s)
+[unetpp_seed42_fold3] epoch  48/60 loss=0.1397 val_dice=0.8955 (6s)
+[unetpp_seed42_fold3] epoch  49/60 loss=0.1390 val_dice=0.8950 (6s)
+[unetpp_seed42_fold3] epoch  50/60 loss=0.1452 val_dice=0.8931 (6s)
+[unetpp_seed42_fold3] epoch  51/60 loss=0.1397 val_dice=0.8910 (6s)
+[unetpp_seed42_fold3] epoch  52/60 loss=0.1402 val_dice=0.8943 (6s)
+[unetpp_seed42_fold3] epoch  53/60 loss=0.1352 val_dice=0.8938 (6s)
+[unetpp_seed42_fold3] epoch  54/60 loss=0.1440 val_dice=0.8944 (6s)
+[unetpp_seed42_fold3] early stop at epoch 54 (best 0.8957 @ 39)
+[unetpp_seed42_fold3] done. best val Dice 0.8957 @ epoch 39
+== eval unetpp_seed42_fold3
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8483  0.7568       0.5647
+cvc-clinicdb  0.8558  0.7801       0.5576
+cvc-colondb   0.7200  0.6397       0.4567
+etis-larib    0.6355  0.5598       0.4614
+kvasir-seg    0.9100  0.8547       0.6988
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold3.csv
+== eval unetpp_seed42_fold3 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8505  0.7620       0.5619
+cvc-clinicdb  0.8596  0.7855       0.5669
+cvc-colondb   0.7318  0.6515       0.4691
+etis-larib    0.6835  0.6092       0.5083
+kvasir-seg    0.9136  0.8609       0.7165
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold3_tta.csv
+== train unetpp_seed42_fold4
+[unetpp_seed42_fold4] device=cuda params=26.08M train=700 val=100 amp=True
+[unetpp_seed42_fold4] epoch   1/60 loss=0.9941 val_dice=0.7771 (7s)
+[unetpp_seed42_fold4] epoch   2/60 loss=0.7460 val_dice=0.8345 (6s)
+[unetpp_seed42_fold4] epoch   3/60 loss=0.6215 val_dice=0.8490 (6s)
+[unetpp_seed42_fold4] epoch   4/60 loss=0.5433 val_dice=0.8507 (6s)
+[unetpp_seed42_fold4] epoch   5/60 loss=0.4954 val_dice=0.8576 (6s)
+[unetpp_seed42_fold4] epoch   6/60 loss=0.4565 val_dice=0.8575 (6s)
+[unetpp_seed42_fold4] epoch   7/60 loss=0.4241 val_dice=0.8606 (6s)
+[unetpp_seed42_fold4] epoch   8/60 loss=0.4014 val_dice=0.8690 (6s)
+[unetpp_seed42_fold4] epoch   9/60 loss=0.3803 val_dice=0.8752 (6s)
+[unetpp_seed42_fold4] epoch  10/60 loss=0.3668 val_dice=0.8812 (6s)
+[unetpp_seed42_fold4] epoch  11/60 loss=0.3320 val_dice=0.8746 (6s)
+[unetpp_seed42_fold4] epoch  12/60 loss=0.3250 val_dice=0.8810 (6s)
+[unetpp_seed42_fold4] epoch  13/60 loss=0.3326 val_dice=0.8752 (6s)
+[unetpp_seed42_fold4] epoch  14/60 loss=0.3364 val_dice=0.8692 (6s)
+[unetpp_seed42_fold4] epoch  15/60 loss=0.3059 val_dice=0.8722 (6s)
+[unetpp_seed42_fold4] epoch  16/60 loss=0.2989 val_dice=0.8695 (6s)
+[unetpp_seed42_fold4] epoch  17/60 loss=0.2702 val_dice=0.8855 (6s)
+[unetpp_seed42_fold4] epoch  18/60 loss=0.2864 val_dice=0.8831 (6s)
+[unetpp_seed42_fold4] epoch  19/60 loss=0.2859 val_dice=0.8891 (6s)
+[unetpp_seed42_fold4] epoch  20/60 loss=0.2649 val_dice=0.8936 (6s)
+[unetpp_seed42_fold4] epoch  21/60 loss=0.2649 val_dice=0.8691 (6s)
+[unetpp_seed42_fold4] epoch  22/60 loss=0.2506 val_dice=0.8798 (6s)
+[unetpp_seed42_fold4] epoch  23/60 loss=0.2581 val_dice=0.8692 (6s)
+[unetpp_seed42_fold4] epoch  24/60 loss=0.2583 val_dice=0.8884 (6s)
+[unetpp_seed42_fold4] epoch  25/60 loss=0.2390 val_dice=0.8681 (6s)
+[unetpp_seed42_fold4] epoch  26/60 loss=0.2465 val_dice=0.8854 (6s)
+[unetpp_seed42_fold4] epoch  27/60 loss=0.2308 val_dice=0.8899 (6s)
+[unetpp_seed42_fold4] epoch  28/60 loss=0.2286 val_dice=0.8949 (6s)
+[unetpp_seed42_fold4] epoch  29/60 loss=0.2154 val_dice=0.8945 (6s)
+[unetpp_seed42_fold4] epoch  30/60 loss=0.2170 val_dice=0.9082 (6s)
+[unetpp_seed42_fold4] epoch  31/60 loss=0.2220 val_dice=0.8955 (6s)
+[unetpp_seed42_fold4] epoch  32/60 loss=0.2137 val_dice=0.8900 (6s)
+[unetpp_seed42_fold4] epoch  33/60 loss=0.2155 val_dice=0.8905 (6s)
+[unetpp_seed42_fold4] epoch  34/60 loss=0.2089 val_dice=0.8907 (6s)
+[unetpp_seed42_fold4] epoch  35/60 loss=0.2000 val_dice=0.8938 (6s)
+[unetpp_seed42_fold4] epoch  36/60 loss=0.2090 val_dice=0.9063 (6s)
+[unetpp_seed42_fold4] epoch  37/60 loss=0.2019 val_dice=0.8899 (6s)
+[unetpp_seed42_fold4] epoch  38/60 loss=0.1997 val_dice=0.8950 (6s)
+[unetpp_seed42_fold4] epoch  39/60 loss=0.2037 val_dice=0.9031 (6s)
+[unetpp_seed42_fold4] epoch  40/60 loss=0.1930 val_dice=0.9091 (6s)
+[unetpp_seed42_fold4] epoch  41/60 loss=0.1899 val_dice=0.8959 (6s)
+[unetpp_seed42_fold4] epoch  42/60 loss=0.1906 val_dice=0.9068 (6s)
+[unetpp_seed42_fold4] epoch  43/60 loss=0.1829 val_dice=0.8959 (6s)
+[unetpp_seed42_fold4] epoch  44/60 loss=0.1840 val_dice=0.9026 (6s)
+[unetpp_seed42_fold4] epoch  45/60 loss=0.1856 val_dice=0.9053 (6s)
+[unetpp_seed42_fold4] epoch  46/60 loss=0.1708 val_dice=0.9016 (6s)
+[unetpp_seed42_fold4] epoch  47/60 loss=0.1781 val_dice=0.9044 (6s)
+[unetpp_seed42_fold4] epoch  48/60 loss=0.1887 val_dice=0.9089 (6s)
+[unetpp_seed42_fold4] epoch  49/60 loss=0.1802 val_dice=0.9089 (6s)
+[unetpp_seed42_fold4] epoch  50/60 loss=0.1726 val_dice=0.9075 (6s)
+[unetpp_seed42_fold4] epoch  51/60 loss=0.1744 val_dice=0.9091 (6s)
+[unetpp_seed42_fold4] epoch  52/60 loss=0.1694 val_dice=0.9072 (6s)
+[unetpp_seed42_fold4] epoch  53/60 loss=0.1607 val_dice=0.9048 (6s)
+[unetpp_seed42_fold4] epoch  54/60 loss=0.1798 val_dice=0.9080 (6s)
+[unetpp_seed42_fold4] epoch  55/60 loss=0.1638 val_dice=0.9054 (6s)
+[unetpp_seed42_fold4] epoch  56/60 loss=0.1627 val_dice=0.9073 (6s)
+[unetpp_seed42_fold4] epoch  57/60 loss=0.1633 val_dice=0.9071 (6s)
+[unetpp_seed42_fold4] epoch  58/60 loss=0.1668 val_dice=0.9045 (6s)
+[unetpp_seed42_fold4] epoch  59/60 loss=0.1651 val_dice=0.9062 (6s)
+[unetpp_seed42_fold4] epoch  60/60 loss=0.1626 val_dice=0.9072 (6s)
+[unetpp_seed42_fold4] done. best val Dice 0.9091 @ epoch 51
+== eval unetpp_seed42_fold4
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8331  0.7460       0.5572
+cvc-clinicdb  0.8543  0.7757       0.5607
+cvc-colondb   0.7460  0.6520       0.4423
+etis-larib    0.6707  0.5919       0.4939
+kvasir-seg    0.8943  0.8317       0.6688
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold4.csv
+== eval unetpp_seed42_fold4 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8527  0.7725       0.6022
+cvc-clinicdb  0.8680  0.7943       0.5870
+cvc-colondb   0.7486  0.6635       0.4653
+etis-larib    0.6809  0.6070       0.5136
+kvasir-seg    0.9066  0.8482       0.6897
+
+Wrote polypseg/outputs/cv/perimage_unetpp_seed42_fold4_tta.csv
+== train segformer_seed42_fold0
+[segformer_seed42_fold0] device=cuda params=3.71M train=700 val=100 amp=True
+[segformer_seed42_fold0] epoch   1/60 loss=1.0983 val_dice=0.6763 (9s)
+[segformer_seed42_fold0] epoch   2/60 loss=0.7649 val_dice=0.7677 (3s)
+[segformer_seed42_fold0] epoch   3/60 loss=0.6605 val_dice=0.7887 (3s)
+[segformer_seed42_fold0] epoch   4/60 loss=0.5722 val_dice=0.8034 (3s)
+[segformer_seed42_fold0] epoch   5/60 loss=0.5459 val_dice=0.8052 (3s)
+[segformer_seed42_fold0] epoch   6/60 loss=0.5339 val_dice=0.8195 (3s)
+[segformer_seed42_fold0] epoch   7/60 loss=0.4780 val_dice=0.8006 (3s)
+[segformer_seed42_fold0] epoch   8/60 loss=0.4537 val_dice=0.8392 (3s)
+[segformer_seed42_fold0] epoch   9/60 loss=0.4444 val_dice=0.8328 (3s)
+[segformer_seed42_fold0] epoch  10/60 loss=0.3970 val_dice=0.8346 (3s)
+[segformer_seed42_fold0] epoch  11/60 loss=0.3925 val_dice=0.8234 (3s)
+[segformer_seed42_fold0] epoch  12/60 loss=0.3834 val_dice=0.8411 (3s)
+[segformer_seed42_fold0] epoch  13/60 loss=0.3827 val_dice=0.8398 (3s)
+[segformer_seed42_fold0] epoch  14/60 loss=0.3493 val_dice=0.8405 (3s)
+[segformer_seed42_fold0] epoch  15/60 loss=0.3571 val_dice=0.8392 (3s)
+[segformer_seed42_fold0] epoch  16/60 loss=0.3461 val_dice=0.8408 (3s)
+[segformer_seed42_fold0] epoch  17/60 loss=0.3307 val_dice=0.8473 (3s)
+[segformer_seed42_fold0] epoch  18/60 loss=0.3181 val_dice=0.8434 (3s)
+[segformer_seed42_fold0] epoch  19/60 loss=0.3110 val_dice=0.8374 (3s)
+[segformer_seed42_fold0] epoch  20/60 loss=0.3229 val_dice=0.8518 (3s)
+[segformer_seed42_fold0] epoch  21/60 loss=0.3133 val_dice=0.8595 (3s)
+[segformer_seed42_fold0] epoch  22/60 loss=0.2939 val_dice=0.8595 (3s)
+[segformer_seed42_fold0] epoch  23/60 loss=0.2869 val_dice=0.8518 (3s)
+[segformer_seed42_fold0] epoch  24/60 loss=0.3053 val_dice=0.8440 (3s)
+[segformer_seed42_fold0] epoch  25/60 loss=0.2861 val_dice=0.8545 (3s)
+[segformer_seed42_fold0] epoch  26/60 loss=0.2722 val_dice=0.8581 (4s)
+[segformer_seed42_fold0] epoch  27/60 loss=0.2690 val_dice=0.8573 (3s)
+[segformer_seed42_fold0] epoch  28/60 loss=0.2625 val_dice=0.8608 (3s)
+[segformer_seed42_fold0] epoch  29/60 loss=0.2514 val_dice=0.8563 (3s)
+[segformer_seed42_fold0] epoch  30/60 loss=0.2698 val_dice=0.8570 (3s)
+[segformer_seed42_fold0] epoch  31/60 loss=0.2608 val_dice=0.8541 (3s)
+[segformer_seed42_fold0] epoch  32/60 loss=0.2595 val_dice=0.8621 (3s)
+[segformer_seed42_fold0] epoch  33/60 loss=0.2519 val_dice=0.8583 (3s)
+[segformer_seed42_fold0] epoch  34/60 loss=0.2515 val_dice=0.8606 (3s)
+[segformer_seed42_fold0] epoch  35/60 loss=0.2391 val_dice=0.8594 (4s)
+[segformer_seed42_fold0] epoch  36/60 loss=0.2360 val_dice=0.8564 (4s)
+[segformer_seed42_fold0] epoch  37/60 loss=0.2388 val_dice=0.8626 (4s)
+[segformer_seed42_fold0] epoch  38/60 loss=0.2420 val_dice=0.8610 (4s)
+[segformer_seed42_fold0] epoch  39/60 loss=0.2375 val_dice=0.8570 (4s)
+[segformer_seed42_fold0] epoch  40/60 loss=0.2431 val_dice=0.8563 (3s)
+[segformer_seed42_fold0] epoch  41/60 loss=0.2234 val_dice=0.8535 (3s)
+[segformer_seed42_fold0] epoch  42/60 loss=0.2268 val_dice=0.8567 (3s)
+[segformer_seed42_fold0] epoch  43/60 loss=0.2276 val_dice=0.8612 (3s)
+[segformer_seed42_fold0] epoch  44/60 loss=0.2373 val_dice=0.8620 (3s)
+[segformer_seed42_fold0] epoch  45/60 loss=0.2286 val_dice=0.8559 (3s)
+[segformer_seed42_fold0] epoch  46/60 loss=0.2154 val_dice=0.8593 (3s)
+[segformer_seed42_fold0] epoch  47/60 loss=0.2219 val_dice=0.8592 (3s)
+[segformer_seed42_fold0] epoch  48/60 loss=0.2340 val_dice=0.8601 (3s)
+[segformer_seed42_fold0] epoch  49/60 loss=0.2167 val_dice=0.8595 (3s)
+[segformer_seed42_fold0] epoch  50/60 loss=0.2196 val_dice=0.8593 (3s)
+[segformer_seed42_fold0] epoch  51/60 loss=0.2217 val_dice=0.8594 (3s)
+[segformer_seed42_fold0] epoch  52/60 loss=0.2153 val_dice=0.8599 (3s)
+[segformer_seed42_fold0] early stop at epoch 52 (best 0.8626 @ 37)
+[segformer_seed42_fold0] done. best val Dice 0.8626 @ epoch 37
+== eval segformer_seed42_fold0
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8561  0.7705       0.5355
+cvc-clinicdb  0.8475  0.7632       0.4891
+cvc-colondb   0.7307  0.6337       0.4101
+etis-larib    0.6648  0.5711       0.3783
+kvasir-seg    0.8971  0.8351       0.5806
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold0.csv
+== eval segformer_seed42_fold0 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8522  0.7674       0.5518
+cvc-clinicdb  0.8496  0.7660       0.4965
+cvc-colondb   0.7296  0.6340       0.4176
+etis-larib    0.6984  0.6050       0.4078
+kvasir-seg    0.8968  0.8376       0.5972
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold0_tta.csv
+== train segformer_seed42_fold1
+[segformer_seed42_fold1] device=cuda params=3.71M train=700 val=100 amp=True
+[segformer_seed42_fold1] epoch   1/60 loss=1.0728 val_dice=0.7312 (9s)
+[segformer_seed42_fold1] epoch   2/60 loss=0.7140 val_dice=0.7598 (3s)
+[segformer_seed42_fold1] epoch   3/60 loss=0.6259 val_dice=0.7952 (3s)
+[segformer_seed42_fold1] epoch   4/60 loss=0.5480 val_dice=0.8384 (4s)
+[segformer_seed42_fold1] epoch   5/60 loss=0.4913 val_dice=0.8499 (4s)
+[segformer_seed42_fold1] epoch   6/60 loss=0.4762 val_dice=0.8449 (3s)
+[segformer_seed42_fold1] epoch   7/60 loss=0.4649 val_dice=0.8537 (3s)
+[segformer_seed42_fold1] epoch   8/60 loss=0.4329 val_dice=0.8616 (3s)
+[segformer_seed42_fold1] epoch   9/60 loss=0.4070 val_dice=0.8727 (4s)
+[segformer_seed42_fold1] epoch  10/60 loss=0.3869 val_dice=0.8698 (3s)
+[segformer_seed42_fold1] epoch  11/60 loss=0.3807 val_dice=0.8611 (4s)
+[segformer_seed42_fold1] epoch  12/60 loss=0.3670 val_dice=0.8769 (4s)
+[segformer_seed42_fold1] epoch  13/60 loss=0.3455 val_dice=0.8784 (4s)
+[segformer_seed42_fold1] epoch  14/60 loss=0.3454 val_dice=0.8763 (4s)
+[segformer_seed42_fold1] epoch  15/60 loss=0.3344 val_dice=0.8807 (4s)
+[segformer_seed42_fold1] epoch  16/60 loss=0.3233 val_dice=0.8754 (4s)
+[segformer_seed42_fold1] epoch  17/60 loss=0.3292 val_dice=0.8734 (3s)
+[segformer_seed42_fold1] epoch  18/60 loss=0.3154 val_dice=0.8763 (3s)
+[segformer_seed42_fold1] epoch  19/60 loss=0.3060 val_dice=0.8762 (3s)
+[segformer_seed42_fold1] epoch  20/60 loss=0.2994 val_dice=0.8914 (3s)
+[segformer_seed42_fold1] epoch  21/60 loss=0.2905 val_dice=0.8898 (3s)
+[segformer_seed42_fold1] epoch  22/60 loss=0.2875 val_dice=0.8826 (3s)
+[segformer_seed42_fold1] epoch  23/60 loss=0.2807 val_dice=0.8865 (3s)
+[segformer_seed42_fold1] epoch  24/60 loss=0.3030 val_dice=0.8879 (3s)
+[segformer_seed42_fold1] epoch  25/60 loss=0.2921 val_dice=0.8964 (3s)
+[segformer_seed42_fold1] epoch  26/60 loss=0.2644 val_dice=0.8769 (4s)
+[segformer_seed42_fold1] epoch  27/60 loss=0.2659 val_dice=0.8907 (4s)
+[segformer_seed42_fold1] epoch  28/60 loss=0.2617 val_dice=0.8927 (4s)
+[segformer_seed42_fold1] epoch  29/60 loss=0.2618 val_dice=0.8841 (4s)
+[segformer_seed42_fold1] epoch  30/60 loss=0.2547 val_dice=0.8848 (4s)
+[segformer_seed42_fold1] epoch  31/60 loss=0.2521 val_dice=0.9003 (4s)
+[segformer_seed42_fold1] epoch  32/60 loss=0.2380 val_dice=0.9001 (4s)
+[segformer_seed42_fold1] epoch  33/60 loss=0.2407 val_dice=0.8966 (3s)
+[segformer_seed42_fold1] epoch  34/60 loss=0.2385 val_dice=0.9031 (3s)
+[segformer_seed42_fold1] epoch  35/60 loss=0.2344 val_dice=0.8953 (4s)
+[segformer_seed42_fold1] epoch  36/60 loss=0.2234 val_dice=0.8969 (4s)
+[segformer_seed42_fold1] epoch  37/60 loss=0.2324 val_dice=0.8990 (4s)
+[segformer_seed42_fold1] epoch  38/60 loss=0.2307 val_dice=0.8971 (4s)
+[segformer_seed42_fold1] epoch  39/60 loss=0.2268 val_dice=0.8977 (4s)
+[segformer_seed42_fold1] epoch  40/60 loss=0.2228 val_dice=0.8997 (4s)
+[segformer_seed42_fold1] epoch  41/60 loss=0.2238 val_dice=0.9020 (4s)
+[segformer_seed42_fold1] epoch  42/60 loss=0.2188 val_dice=0.8978 (4s)
+[segformer_seed42_fold1] epoch  43/60 loss=0.2227 val_dice=0.9008 (4s)
+[segformer_seed42_fold1] epoch  44/60 loss=0.2191 val_dice=0.9029 (4s)
+[segformer_seed42_fold1] epoch  45/60 loss=0.2190 val_dice=0.9025 (4s)
+[segformer_seed42_fold1] epoch  46/60 loss=0.2073 val_dice=0.9045 (4s)
+[segformer_seed42_fold1] epoch  47/60 loss=0.2104 val_dice=0.9017 (3s)
+[segformer_seed42_fold1] epoch  48/60 loss=0.2241 val_dice=0.9021 (3s)
+[segformer_seed42_fold1] epoch  49/60 loss=0.2109 val_dice=0.9030 (4s)
+[segformer_seed42_fold1] epoch  50/60 loss=0.2017 val_dice=0.9027 (3s)
+[segformer_seed42_fold1] epoch  51/60 loss=0.2082 val_dice=0.9013 (4s)
+[segformer_seed42_fold1] epoch  52/60 loss=0.2065 val_dice=0.9027 (3s)
+[segformer_seed42_fold1] epoch  53/60 loss=0.2042 val_dice=0.9030 (3s)
+[segformer_seed42_fold1] epoch  54/60 loss=0.2145 val_dice=0.9031 (4s)
+[segformer_seed42_fold1] epoch  55/60 loss=0.2098 val_dice=0.9028 (3s)
+[segformer_seed42_fold1] epoch  56/60 loss=0.2063 val_dice=0.9025 (3s)
+[segformer_seed42_fold1] epoch  57/60 loss=0.2123 val_dice=0.9020 (3s)
+[segformer_seed42_fold1] epoch  58/60 loss=0.2118 val_dice=0.9024 (3s)
+[segformer_seed42_fold1] epoch  59/60 loss=0.1996 val_dice=0.9021 (3s)
+[segformer_seed42_fold1] epoch  60/60 loss=0.2026 val_dice=0.9025 (3s)
+[segformer_seed42_fold1] done. best val Dice 0.9045 @ epoch 46
+== eval segformer_seed42_fold1
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8169  0.7272       0.4537
+cvc-clinicdb  0.8532  0.7697       0.4976
+cvc-colondb   0.7227  0.6255       0.3932
+etis-larib    0.6977  0.6034       0.4137
+kvasir-seg    0.8890  0.8275       0.6143
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold1.csv
+== eval segformer_seed42_fold1 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8206  0.7292       0.4581
+cvc-clinicdb  0.8568  0.7738       0.5067
+cvc-colondb   0.7327  0.6353       0.4040
+etis-larib    0.7186  0.6272       0.4364
+kvasir-seg    0.8935  0.8364       0.6268
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold1_tta.csv
+== train segformer_seed42_fold2
+[segformer_seed42_fold2] device=cuda params=3.71M train=700 val=100 amp=True
+[segformer_seed42_fold2] epoch   1/60 loss=1.0564 val_dice=0.7510 (9s)
+[segformer_seed42_fold2] epoch   2/60 loss=0.7026 val_dice=0.7886 (3s)
+[segformer_seed42_fold2] epoch   3/60 loss=0.5975 val_dice=0.8013 (3s)
+[segformer_seed42_fold2] epoch   4/60 loss=0.5422 val_dice=0.8236 (4s)
+[segformer_seed42_fold2] epoch   5/60 loss=0.5005 val_dice=0.8420 (4s)
+[segformer_seed42_fold2] epoch   6/60 loss=0.4881 val_dice=0.8333 (4s)
+[segformer_seed42_fold2] epoch   7/60 loss=0.4778 val_dice=0.8414 (4s)
+[segformer_seed42_fold2] epoch   8/60 loss=0.4343 val_dice=0.8589 (4s)
+[segformer_seed42_fold2] epoch   9/60 loss=0.4119 val_dice=0.8586 (4s)
+[segformer_seed42_fold2] epoch  10/60 loss=0.4040 val_dice=0.8695 (3s)
+[segformer_seed42_fold2] epoch  11/60 loss=0.3689 val_dice=0.8675 (4s)
+[segformer_seed42_fold2] epoch  12/60 loss=0.3747 val_dice=0.8583 (3s)
+[segformer_seed42_fold2] epoch  13/60 loss=0.3510 val_dice=0.8646 (3s)
+[segformer_seed42_fold2] epoch  14/60 loss=0.3474 val_dice=0.8723 (3s)
+[segformer_seed42_fold2] epoch  15/60 loss=0.3230 val_dice=0.8636 (3s)
+[segformer_seed42_fold2] epoch  16/60 loss=0.3092 val_dice=0.8821 (3s)
+[segformer_seed42_fold2] epoch  17/60 loss=0.3077 val_dice=0.8682 (3s)
+[segformer_seed42_fold2] epoch  18/60 loss=0.3102 val_dice=0.8744 (3s)
+[segformer_seed42_fold2] epoch  19/60 loss=0.2876 val_dice=0.8820 (3s)
+[segformer_seed42_fold2] epoch  20/60 loss=0.2971 val_dice=0.8675 (4s)
+[segformer_seed42_fold2] epoch  21/60 loss=0.2886 val_dice=0.8855 (3s)
+[segformer_seed42_fold2] epoch  22/60 loss=0.2791 val_dice=0.8786 (3s)
+[segformer_seed42_fold2] epoch  23/60 loss=0.2830 val_dice=0.8826 (3s)
+[segformer_seed42_fold2] epoch  24/60 loss=0.2706 val_dice=0.8883 (3s)
+[segformer_seed42_fold2] epoch  25/60 loss=0.2617 val_dice=0.8795 (3s)
+[segformer_seed42_fold2] epoch  26/60 loss=0.2618 val_dice=0.8734 (4s)
+[segformer_seed42_fold2] epoch  27/60 loss=0.2668 val_dice=0.8809 (3s)
+[segformer_seed42_fold2] epoch  28/60 loss=0.2471 val_dice=0.8827 (3s)
+[segformer_seed42_fold2] epoch  29/60 loss=0.2400 val_dice=0.8872 (3s)
+[segformer_seed42_fold2] epoch  30/60 loss=0.2461 val_dice=0.8850 (3s)
+[segformer_seed42_fold2] epoch  31/60 loss=0.2423 val_dice=0.8878 (4s)
+[segformer_seed42_fold2] epoch  32/60 loss=0.2269 val_dice=0.8940 (4s)
+[segformer_seed42_fold2] epoch  33/60 loss=0.2358 val_dice=0.8808 (3s)
+[segformer_seed42_fold2] epoch  34/60 loss=0.2422 val_dice=0.8817 (3s)
+[segformer_seed42_fold2] epoch  35/60 loss=0.2213 val_dice=0.8799 (3s)
+[segformer_seed42_fold2] epoch  36/60 loss=0.2256 val_dice=0.8851 (3s)
+[segformer_seed42_fold2] epoch  37/60 loss=0.2242 val_dice=0.8762 (3s)
+[segformer_seed42_fold2] epoch  38/60 loss=0.2318 val_dice=0.8873 (3s)
+[segformer_seed42_fold2] epoch  39/60 loss=0.2292 val_dice=0.8863 (4s)
+[segformer_seed42_fold2] epoch  40/60 loss=0.2178 val_dice=0.8890 (3s)
+[segformer_seed42_fold2] epoch  41/60 loss=0.2129 val_dice=0.8887 (3s)
+[segformer_seed42_fold2] epoch  42/60 loss=0.2142 val_dice=0.8891 (3s)
+[segformer_seed42_fold2] epoch  43/60 loss=0.2129 val_dice=0.8883 (3s)
+[segformer_seed42_fold2] epoch  44/60 loss=0.2115 val_dice=0.8881 (3s)
+[segformer_seed42_fold2] epoch  45/60 loss=0.1992 val_dice=0.8891 (3s)
+[segformer_seed42_fold2] epoch  46/60 loss=0.2123 val_dice=0.8904 (3s)
+[segformer_seed42_fold2] epoch  47/60 loss=0.1980 val_dice=0.8900 (3s)
+[segformer_seed42_fold2] early stop at epoch 47 (best 0.8940 @ 32)
+[segformer_seed42_fold2] done. best val Dice 0.8940 @ epoch 32
+== eval segformer_seed42_fold2
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8381  0.7499       0.5021
+cvc-clinicdb  0.8336  0.7473       0.4898
+cvc-colondb   0.7108  0.6168       0.3828
+etis-larib    0.6369  0.5530       0.3974
+kvasir-seg    0.8944  0.8311       0.5934
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold2.csv
+== eval segformer_seed42_fold2 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8437  0.7498       0.4883
+cvc-clinicdb  0.8420  0.7571       0.5025
+cvc-colondb   0.7286  0.6353       0.3980
+etis-larib    0.6601  0.5737       0.4137
+kvasir-seg    0.8945  0.8323       0.6058
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold2_tta.csv
+== train segformer_seed42_fold3
+[segformer_seed42_fold3] device=cuda params=3.71M train=700 val=100 amp=True
+[segformer_seed42_fold3] epoch   1/60 loss=1.0684 val_dice=0.7355 (10s)
+[segformer_seed42_fold3] epoch   2/60 loss=0.6961 val_dice=0.7837 (3s)
+[segformer_seed42_fold3] epoch   3/60 loss=0.5937 val_dice=0.8012 (3s)
+[segformer_seed42_fold3] epoch   4/60 loss=0.5424 val_dice=0.8328 (3s)
+[segformer_seed42_fold3] epoch   5/60 loss=0.4822 val_dice=0.8305 (3s)
+[segformer_seed42_fold3] epoch   6/60 loss=0.4500 val_dice=0.8462 (3s)
+[segformer_seed42_fold3] epoch   7/60 loss=0.4457 val_dice=0.8341 (3s)
+[segformer_seed42_fold3] epoch   8/60 loss=0.4211 val_dice=0.8503 (4s)
+[segformer_seed42_fold3] epoch   9/60 loss=0.3790 val_dice=0.8576 (3s)
+[segformer_seed42_fold3] epoch  10/60 loss=0.3809 val_dice=0.8623 (4s)
+[segformer_seed42_fold3] epoch  11/60 loss=0.3656 val_dice=0.8683 (3s)
+[segformer_seed42_fold3] epoch  12/60 loss=0.3482 val_dice=0.8748 (3s)
+[segformer_seed42_fold3] epoch  13/60 loss=0.3275 val_dice=0.8630 (4s)
+[segformer_seed42_fold3] epoch  14/60 loss=0.3294 val_dice=0.8685 (3s)
+[segformer_seed42_fold3] epoch  15/60 loss=0.3126 val_dice=0.8684 (4s)
+[segformer_seed42_fold3] epoch  16/60 loss=0.3185 val_dice=0.8685 (3s)
+[segformer_seed42_fold3] epoch  17/60 loss=0.3166 val_dice=0.8561 (4s)
+[segformer_seed42_fold3] epoch  18/60 loss=0.3012 val_dice=0.8734 (3s)
+[segformer_seed42_fold3] epoch  19/60 loss=0.3013 val_dice=0.8774 (4s)
+[segformer_seed42_fold3] epoch  20/60 loss=0.2860 val_dice=0.8826 (3s)
+[segformer_seed42_fold3] epoch  21/60 loss=0.2835 val_dice=0.8760 (3s)
+[segformer_seed42_fold3] epoch  22/60 loss=0.2675 val_dice=0.8734 (3s)
+[segformer_seed42_fold3] epoch  23/60 loss=0.2620 val_dice=0.8782 (3s)
+[segformer_seed42_fold3] epoch  24/60 loss=0.2589 val_dice=0.8694 (4s)
+[segformer_seed42_fold3] epoch  25/60 loss=0.2468 val_dice=0.8741 (4s)
+[segformer_seed42_fold3] epoch  26/60 loss=0.2467 val_dice=0.8797 (3s)
+[segformer_seed42_fold3] epoch  27/60 loss=0.2480 val_dice=0.8802 (3s)
+[segformer_seed42_fold3] epoch  28/60 loss=0.2460 val_dice=0.8782 (3s)
+[segformer_seed42_fold3] epoch  29/60 loss=0.2421 val_dice=0.8867 (4s)
+[segformer_seed42_fold3] epoch  30/60 loss=0.2425 val_dice=0.8810 (3s)
+[segformer_seed42_fold3] epoch  31/60 loss=0.2303 val_dice=0.8780 (3s)
+[segformer_seed42_fold3] epoch  32/60 loss=0.2257 val_dice=0.8798 (3s)
+[segformer_seed42_fold3] epoch  33/60 loss=0.2176 val_dice=0.8819 (3s)
+[segformer_seed42_fold3] epoch  34/60 loss=0.2349 val_dice=0.8828 (3s)
+[segformer_seed42_fold3] epoch  35/60 loss=0.2041 val_dice=0.8807 (3s)
+[segformer_seed42_fold3] epoch  36/60 loss=0.2145 val_dice=0.8824 (3s)
+[segformer_seed42_fold3] epoch  37/60 loss=0.2352 val_dice=0.8765 (3s)
+[segformer_seed42_fold3] epoch  38/60 loss=0.2149 val_dice=0.8814 (3s)
+[segformer_seed42_fold3] epoch  39/60 loss=0.2161 val_dice=0.8792 (3s)
+[segformer_seed42_fold3] epoch  40/60 loss=0.2016 val_dice=0.8809 (3s)
+[segformer_seed42_fold3] epoch  41/60 loss=0.2060 val_dice=0.8845 (3s)
+[segformer_seed42_fold3] epoch  42/60 loss=0.2137 val_dice=0.8844 (3s)
+[segformer_seed42_fold3] epoch  43/60 loss=0.2111 val_dice=0.8842 (4s)
+[segformer_seed42_fold3] epoch  44/60 loss=0.2070 val_dice=0.8856 (4s)
+[segformer_seed42_fold3] early stop at epoch 44 (best 0.8867 @ 29)
+[segformer_seed42_fold3] done. best val Dice 0.8867 @ epoch 29
+== eval segformer_seed42_fold3
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8361  0.7406       0.4666
+cvc-clinicdb  0.8402  0.7540       0.4723
+cvc-colondb   0.7202  0.6251       0.3801
+etis-larib    0.6716  0.5828       0.4029
+kvasir-seg    0.8992  0.8347       0.5912
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold3.csv
+== eval segformer_seed42_fold3 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8399  0.7449       0.4584
+cvc-clinicdb  0.8491  0.7647       0.4853
+cvc-colondb   0.7231  0.6269       0.3780
+etis-larib    0.6991  0.6128       0.4357
+kvasir-seg    0.9062  0.8435       0.6099
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold3_tta.csv
+== train segformer_seed42_fold4
+[segformer_seed42_fold4] device=cuda params=3.71M train=700 val=100 amp=True
+[segformer_seed42_fold4] epoch   1/60 loss=1.0513 val_dice=0.7246 (9s)
+[segformer_seed42_fold4] epoch   2/60 loss=0.6787 val_dice=0.7755 (3s)
+[segformer_seed42_fold4] epoch   3/60 loss=0.5937 val_dice=0.8132 (3s)
+[segformer_seed42_fold4] epoch   4/60 loss=0.5356 val_dice=0.8068 (3s)
+[segformer_seed42_fold4] epoch   5/60 loss=0.4995 val_dice=0.8321 (3s)
+[segformer_seed42_fold4] epoch   6/60 loss=0.4645 val_dice=0.8487 (3s)
+[segformer_seed42_fold4] epoch   7/60 loss=0.4235 val_dice=0.8497 (3s)
+[segformer_seed42_fold4] epoch   8/60 loss=0.4208 val_dice=0.8549 (3s)
+[segformer_seed42_fold4] epoch   9/60 loss=0.3928 val_dice=0.8624 (3s)
+[segformer_seed42_fold4] epoch  10/60 loss=0.3830 val_dice=0.8644 (3s)
+[segformer_seed42_fold4] epoch  11/60 loss=0.3709 val_dice=0.8498 (3s)
+[segformer_seed42_fold4] epoch  12/60 loss=0.3467 val_dice=0.8605 (4s)
+[segformer_seed42_fold4] epoch  13/60 loss=0.3321 val_dice=0.8699 (4s)
+[segformer_seed42_fold4] epoch  14/60 loss=0.3234 val_dice=0.8741 (3s)
+[segformer_seed42_fold4] epoch  15/60 loss=0.3124 val_dice=0.8679 (3s)
+[segformer_seed42_fold4] epoch  16/60 loss=0.2982 val_dice=0.8816 (3s)
+[segformer_seed42_fold4] epoch  17/60 loss=0.2904 val_dice=0.8853 (3s)
+[segformer_seed42_fold4] epoch  18/60 loss=0.3048 val_dice=0.8748 (3s)
+[segformer_seed42_fold4] epoch  19/60 loss=0.3085 val_dice=0.8724 (3s)
+[segformer_seed42_fold4] epoch  20/60 loss=0.2672 val_dice=0.8916 (3s)
+[segformer_seed42_fold4] epoch  21/60 loss=0.2733 val_dice=0.8889 (3s)
+[segformer_seed42_fold4] epoch  22/60 loss=0.2605 val_dice=0.8894 (3s)
+[segformer_seed42_fold4] epoch  23/60 loss=0.2720 val_dice=0.8888 (3s)
+[segformer_seed42_fold4] epoch  24/60 loss=0.2550 val_dice=0.8914 (4s)
+[segformer_seed42_fold4] epoch  25/60 loss=0.2583 val_dice=0.8889 (4s)
+[segformer_seed42_fold4] epoch  26/60 loss=0.2457 val_dice=0.8837 (3s)
+[segformer_seed42_fold4] epoch  27/60 loss=0.2359 val_dice=0.8898 (3s)
+[segformer_seed42_fold4] epoch  28/60 loss=0.2495 val_dice=0.8986 (3s)
+[segformer_seed42_fold4] epoch  29/60 loss=0.2380 val_dice=0.8837 (3s)
+[segformer_seed42_fold4] epoch  30/60 loss=0.2339 val_dice=0.8946 (3s)
+[segformer_seed42_fold4] epoch  31/60 loss=0.2350 val_dice=0.8996 (3s)
+[segformer_seed42_fold4] epoch  32/60 loss=0.2282 val_dice=0.9011 (4s)
+[segformer_seed42_fold4] epoch  33/60 loss=0.2290 val_dice=0.8970 (3s)
+[segformer_seed42_fold4] epoch  34/60 loss=0.2133 val_dice=0.8995 (3s)
+[segformer_seed42_fold4] epoch  35/60 loss=0.2164 val_dice=0.9019 (3s)
+[segformer_seed42_fold4] epoch  36/60 loss=0.2256 val_dice=0.8972 (3s)
+[segformer_seed42_fold4] epoch  37/60 loss=0.2141 val_dice=0.8906 (3s)
+[segformer_seed42_fold4] epoch  38/60 loss=0.2045 val_dice=0.8976 (3s)
+[segformer_seed42_fold4] epoch  39/60 loss=0.2039 val_dice=0.8985 (3s)
+[segformer_seed42_fold4] epoch  40/60 loss=0.2250 val_dice=0.9032 (3s)
+[segformer_seed42_fold4] epoch  41/60 loss=0.2018 val_dice=0.8984 (3s)
+[segformer_seed42_fold4] epoch  42/60 loss=0.1989 val_dice=0.9025 (3s)
+[segformer_seed42_fold4] epoch  43/60 loss=0.2043 val_dice=0.9017 (3s)
+[segformer_seed42_fold4] epoch  44/60 loss=0.2121 val_dice=0.9032 (3s)
+[segformer_seed42_fold4] epoch  45/60 loss=0.1906 val_dice=0.9049 (3s)
+[segformer_seed42_fold4] epoch  46/60 loss=0.1934 val_dice=0.9036 (3s)
+[segformer_seed42_fold4] epoch  47/60 loss=0.1913 val_dice=0.9004 (3s)
+[segformer_seed42_fold4] epoch  48/60 loss=0.1980 val_dice=0.9020 (3s)
+[segformer_seed42_fold4] epoch  49/60 loss=0.1991 val_dice=0.9077 (3s)
+[segformer_seed42_fold4] epoch  50/60 loss=0.2018 val_dice=0.9074 (3s)
+[segformer_seed42_fold4] epoch  51/60 loss=0.1878 val_dice=0.9076 (3s)
+[segformer_seed42_fold4] epoch  52/60 loss=0.1920 val_dice=0.9066 (3s)
+[segformer_seed42_fold4] epoch  53/60 loss=0.2075 val_dice=0.9064 (3s)
+[segformer_seed42_fold4] epoch  54/60 loss=0.2007 val_dice=0.9069 (3s)
+[segformer_seed42_fold4] epoch  55/60 loss=0.1860 val_dice=0.9069 (3s)
+[segformer_seed42_fold4] epoch  56/60 loss=0.1791 val_dice=0.9069 (3s)
+[segformer_seed42_fold4] epoch  57/60 loss=0.1915 val_dice=0.9073 (3s)
+[segformer_seed42_fold4] epoch  58/60 loss=0.1841 val_dice=0.9075 (3s)
+[segformer_seed42_fold4] epoch  59/60 loss=0.1906 val_dice=0.9076 (3s)
+[segformer_seed42_fold4] epoch  60/60 loss=0.1948 val_dice=0.9075 (3s)
+[segformer_seed42_fold4] done. best val Dice 0.9077 @ epoch 49
+== eval segformer_seed42_fold4
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8502  0.7636       0.5247
+cvc-clinicdb  0.8508  0.7679       0.5109
+cvc-colondb   0.7532  0.6562       0.4226
+etis-larib    0.7006  0.6094       0.4447
+kvasir-seg    0.8862  0.8180       0.5940
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold4.csv
+== eval segformer_seed42_fold4 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8467  0.7607       0.5322
+cvc-clinicdb  0.8603  0.7792       0.5255
+cvc-colondb   0.7514  0.6550       0.4187
+etis-larib    0.7242  0.6364       0.4825
+kvasir-seg    0.9007  0.8387       0.6293
+
+Wrote polypseg/outputs/cv/perimage_segformer_seed42_fold4_tta.csv
+== train segformer_b2_seed42_fold0
+[segformer_b2_seed42_fold0] device=cuda params=24.72M train=700 val=100 amp=True
+[segformer_b2_seed42_fold0] epoch   1/60 loss=0.9837 val_dice=0.7620 (11s)
+[segformer_b2_seed42_fold0] epoch   2/60 loss=0.5626 val_dice=0.7814 (4s)
+[segformer_b2_seed42_fold0] epoch   3/60 loss=0.4576 val_dice=0.7934 (4s)
+[segformer_b2_seed42_fold0] epoch   4/60 loss=0.3959 val_dice=0.8428 (4s)
+[segformer_b2_seed42_fold0] epoch   5/60 loss=0.3626 val_dice=0.8317 (4s)
+[segformer_b2_seed42_fold0] epoch   6/60 loss=0.3554 val_dice=0.8654 (4s)
+[segformer_b2_seed42_fold0] epoch   7/60 loss=0.3173 val_dice=0.8332 (4s)
+[segformer_b2_seed42_fold0] epoch   8/60 loss=0.3156 val_dice=0.8739 (4s)
+[segformer_b2_seed42_fold0] epoch   9/60 loss=0.2858 val_dice=0.8671 (4s)
+[segformer_b2_seed42_fold0] epoch  10/60 loss=0.2656 val_dice=0.8677 (4s)
+[segformer_b2_seed42_fold0] epoch  11/60 loss=0.2841 val_dice=0.8856 (4s)
+[segformer_b2_seed42_fold0] epoch  12/60 loss=0.2538 val_dice=0.8631 (4s)
+[segformer_b2_seed42_fold0] epoch  13/60 loss=0.2549 val_dice=0.8863 (4s)
+[segformer_b2_seed42_fold0] epoch  14/60 loss=0.2515 val_dice=0.8630 (4s)
+[segformer_b2_seed42_fold0] epoch  15/60 loss=0.2562 val_dice=0.8632 (5s)
+[segformer_b2_seed42_fold0] epoch  16/60 loss=0.2542 val_dice=0.8696 (4s)
+[segformer_b2_seed42_fold0] epoch  17/60 loss=0.2254 val_dice=0.8760 (4s)
+[segformer_b2_seed42_fold0] epoch  18/60 loss=0.2140 val_dice=0.8720 (4s)
+[segformer_b2_seed42_fold0] epoch  19/60 loss=0.2099 val_dice=0.8757 (4s)
+[segformer_b2_seed42_fold0] epoch  20/60 loss=0.2039 val_dice=0.8927 (4s)
+[segformer_b2_seed42_fold0] epoch  21/60 loss=0.2103 val_dice=0.8615 (4s)
+[segformer_b2_seed42_fold0] epoch  22/60 loss=0.2002 val_dice=0.8795 (4s)
+[segformer_b2_seed42_fold0] epoch  23/60 loss=0.2087 val_dice=0.8749 (4s)
+[segformer_b2_seed42_fold0] epoch  24/60 loss=0.2144 val_dice=0.8858 (4s)
+[segformer_b2_seed42_fold0] epoch  25/60 loss=0.2072 val_dice=0.8879 (4s)
+[segformer_b2_seed42_fold0] epoch  26/60 loss=0.1867 val_dice=0.8773 (4s)
+[segformer_b2_seed42_fold0] epoch  27/60 loss=0.1767 val_dice=0.8893 (4s)
+[segformer_b2_seed42_fold0] epoch  28/60 loss=0.1744 val_dice=0.8892 (5s)
+[segformer_b2_seed42_fold0] epoch  29/60 loss=0.1815 val_dice=0.8933 (4s)
+[segformer_b2_seed42_fold0] epoch  30/60 loss=0.1903 val_dice=0.8839 (4s)
+[segformer_b2_seed42_fold0] epoch  31/60 loss=0.1665 val_dice=0.8867 (4s)
+[segformer_b2_seed42_fold0] epoch  32/60 loss=0.1676 val_dice=0.8971 (4s)
+[segformer_b2_seed42_fold0] epoch  33/60 loss=0.1748 val_dice=0.8720 (4s)
+[segformer_b2_seed42_fold0] epoch  34/60 loss=0.1785 val_dice=0.8881 (4s)
+[segformer_b2_seed42_fold0] epoch  35/60 loss=0.1655 val_dice=0.8964 (4s)
+[segformer_b2_seed42_fold0] epoch  36/60 loss=0.1671 val_dice=0.8976 (4s)
+[segformer_b2_seed42_fold0] epoch  37/60 loss=0.1581 val_dice=0.8969 (4s)
+[segformer_b2_seed42_fold0] epoch  38/60 loss=0.1581 val_dice=0.8935 (4s)
+[segformer_b2_seed42_fold0] epoch  39/60 loss=0.1735 val_dice=0.8938 (4s)
+[segformer_b2_seed42_fold0] epoch  40/60 loss=0.1624 val_dice=0.8917 (4s)
+[segformer_b2_seed42_fold0] epoch  41/60 loss=0.1520 val_dice=0.8898 (4s)
+[segformer_b2_seed42_fold0] epoch  42/60 loss=0.1507 val_dice=0.8929 (4s)
+[segformer_b2_seed42_fold0] epoch  43/60 loss=0.1587 val_dice=0.8938 (4s)
+[segformer_b2_seed42_fold0] epoch  44/60 loss=0.1417 val_dice=0.8920 (4s)
+[segformer_b2_seed42_fold0] epoch  45/60 loss=0.1445 val_dice=0.8919 (5s)
+[segformer_b2_seed42_fold0] epoch  46/60 loss=0.1385 val_dice=0.8916 (5s)
+[segformer_b2_seed42_fold0] epoch  47/60 loss=0.1466 val_dice=0.8929 (4s)
+[segformer_b2_seed42_fold0] epoch  48/60 loss=0.1428 val_dice=0.8931 (5s)
+[segformer_b2_seed42_fold0] epoch  49/60 loss=0.1383 val_dice=0.8899 (5s)
+[segformer_b2_seed42_fold0] epoch  50/60 loss=0.1500 val_dice=0.8921 (5s)
+[segformer_b2_seed42_fold0] epoch  51/60 loss=0.1422 val_dice=0.8945 (4s)
+[segformer_b2_seed42_fold0] early stop at epoch 51 (best 0.8976 @ 36)
+[segformer_b2_seed42_fold0] done. best val Dice 0.8976 @ epoch 36
+== eval segformer_b2_seed42_fold0
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8426  0.7576       0.5552
+cvc-clinicdb  0.8673  0.7908       0.5475
+cvc-colondb   0.7646  0.6787       0.4676
+etis-larib    0.7703  0.6787       0.4958
+kvasir-seg    0.9064  0.8509       0.6542
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold0.csv
+== eval segformer_b2_seed42_fold0 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8573  0.7769       0.5878
+cvc-clinicdb  0.8740  0.8000       0.5687
+cvc-colondb   0.7796  0.6933       0.4790
+etis-larib    0.7893  0.7042       0.5352
+kvasir-seg    0.9137  0.8612       0.6719
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold0_tta.csv
+== train segformer_b2_seed42_fold1
+[segformer_b2_seed42_fold1] device=cuda params=24.72M train=700 val=100 amp=True
+[segformer_b2_seed42_fold1] epoch   1/60 loss=0.8878 val_dice=0.8130 (11s)
+[segformer_b2_seed42_fold1] epoch   2/60 loss=0.4859 val_dice=0.8496 (4s)
+[segformer_b2_seed42_fold1] epoch   3/60 loss=0.4112 val_dice=0.8674 (4s)
+[segformer_b2_seed42_fold1] epoch   4/60 loss=0.3387 val_dice=0.8674 (4s)
+[segformer_b2_seed42_fold1] epoch   5/60 loss=0.3094 val_dice=0.8893 (4s)
+[segformer_b2_seed42_fold1] epoch   6/60 loss=0.2885 val_dice=0.8783 (4s)
+[segformer_b2_seed42_fold1] epoch   7/60 loss=0.2680 val_dice=0.8941 (5s)
+[segformer_b2_seed42_fold1] epoch   8/60 loss=0.2692 val_dice=0.8885 (5s)
+[segformer_b2_seed42_fold1] epoch   9/60 loss=0.2487 val_dice=0.8908 (4s)
+[segformer_b2_seed42_fold1] epoch  10/60 loss=0.2482 val_dice=0.9011 (4s)
+[segformer_b2_seed42_fold1] epoch  11/60 loss=0.2370 val_dice=0.8731 (4s)
+[segformer_b2_seed42_fold1] epoch  12/60 loss=0.2324 val_dice=0.8941 (4s)
+[segformer_b2_seed42_fold1] epoch  13/60 loss=0.2192 val_dice=0.8860 (4s)
+[segformer_b2_seed42_fold1] epoch  14/60 loss=0.2115 val_dice=0.8977 (4s)
+[segformer_b2_seed42_fold1] epoch  15/60 loss=0.2140 val_dice=0.8995 (4s)
+[segformer_b2_seed42_fold1] epoch  16/60 loss=0.2127 val_dice=0.9035 (5s)
+[segformer_b2_seed42_fold1] epoch  17/60 loss=0.1845 val_dice=0.9005 (4s)
+[segformer_b2_seed42_fold1] epoch  18/60 loss=0.1848 val_dice=0.8990 (4s)
+[segformer_b2_seed42_fold1] epoch  19/60 loss=0.1884 val_dice=0.8948 (5s)
+[segformer_b2_seed42_fold1] epoch  20/60 loss=0.1949 val_dice=0.9003 (4s)
+[segformer_b2_seed42_fold1] epoch  21/60 loss=0.1724 val_dice=0.9053 (4s)
+[segformer_b2_seed42_fold1] epoch  22/60 loss=0.1998 val_dice=0.9043 (4s)
+[segformer_b2_seed42_fold1] epoch  23/60 loss=0.1810 val_dice=0.9065 (4s)
+[segformer_b2_seed42_fold1] epoch  24/60 loss=0.1672 val_dice=0.9045 (4s)
+[segformer_b2_seed42_fold1] epoch  25/60 loss=0.1765 val_dice=0.9063 (4s)
+[segformer_b2_seed42_fold1] epoch  26/60 loss=0.1671 val_dice=0.9015 (5s)
+[segformer_b2_seed42_fold1] epoch  27/60 loss=0.1630 val_dice=0.9004 (4s)
+[segformer_b2_seed42_fold1] epoch  28/60 loss=0.1454 val_dice=0.9083 (4s)
+[segformer_b2_seed42_fold1] epoch  29/60 loss=0.1616 val_dice=0.8959 (4s)
+[segformer_b2_seed42_fold1] epoch  30/60 loss=0.1672 val_dice=0.9079 (4s)
+[segformer_b2_seed42_fold1] epoch  31/60 loss=0.1589 val_dice=0.8978 (4s)
+[segformer_b2_seed42_fold1] epoch  32/60 loss=0.1571 val_dice=0.9076 (4s)
+[segformer_b2_seed42_fold1] epoch  33/60 loss=0.1566 val_dice=0.9013 (4s)
+[segformer_b2_seed42_fold1] epoch  34/60 loss=0.1575 val_dice=0.9073 (4s)
+[segformer_b2_seed42_fold1] epoch  35/60 loss=0.1448 val_dice=0.9095 (4s)
+[segformer_b2_seed42_fold1] epoch  36/60 loss=0.1442 val_dice=0.9063 (4s)
+[segformer_b2_seed42_fold1] epoch  37/60 loss=0.1313 val_dice=0.9081 (5s)
+[segformer_b2_seed42_fold1] epoch  38/60 loss=0.1368 val_dice=0.9129 (5s)
+[segformer_b2_seed42_fold1] epoch  39/60 loss=0.1391 val_dice=0.9090 (5s)
+[segformer_b2_seed42_fold1] epoch  40/60 loss=0.1352 val_dice=0.9082 (5s)
+[segformer_b2_seed42_fold1] epoch  41/60 loss=0.1255 val_dice=0.9095 (4s)
+[segformer_b2_seed42_fold1] epoch  42/60 loss=0.1350 val_dice=0.9101 (4s)
+[segformer_b2_seed42_fold1] epoch  43/60 loss=0.1273 val_dice=0.9145 (4s)
+[segformer_b2_seed42_fold1] epoch  44/60 loss=0.1221 val_dice=0.9131 (4s)
+[segformer_b2_seed42_fold1] epoch  45/60 loss=0.1355 val_dice=0.9126 (4s)
+[segformer_b2_seed42_fold1] epoch  46/60 loss=0.1203 val_dice=0.9107 (4s)
+[segformer_b2_seed42_fold1] epoch  47/60 loss=0.1242 val_dice=0.9087 (4s)
+[segformer_b2_seed42_fold1] epoch  48/60 loss=0.1153 val_dice=0.9096 (4s)
+[segformer_b2_seed42_fold1] epoch  49/60 loss=0.1212 val_dice=0.9118 (4s)
+[segformer_b2_seed42_fold1] epoch  50/60 loss=0.1224 val_dice=0.9104 (4s)
+[segformer_b2_seed42_fold1] epoch  51/60 loss=0.1205 val_dice=0.9112 (4s)
+[segformer_b2_seed42_fold1] epoch  52/60 loss=0.1231 val_dice=0.9123 (4s)
+[segformer_b2_seed42_fold1] epoch  53/60 loss=0.1240 val_dice=0.9126 (5s)
+[segformer_b2_seed42_fold1] epoch  54/60 loss=0.1219 val_dice=0.9118 (5s)
+[segformer_b2_seed42_fold1] epoch  55/60 loss=0.1211 val_dice=0.9124 (4s)
+[segformer_b2_seed42_fold1] epoch  56/60 loss=0.1124 val_dice=0.9122 (5s)
+[segformer_b2_seed42_fold1] epoch  57/60 loss=0.1215 val_dice=0.9117 (4s)
+[segformer_b2_seed42_fold1] epoch  58/60 loss=0.1151 val_dice=0.9121 (4s)
+[segformer_b2_seed42_fold1] early stop at epoch 58 (best 0.9145 @ 43)
+[segformer_b2_seed42_fold1] done. best val Dice 0.9145 @ epoch 43
+== eval segformer_b2_seed42_fold1
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8639  0.7807       0.5677
+cvc-clinicdb  0.8714  0.7964       0.5576
+cvc-colondb   0.7772  0.6909       0.4899
+etis-larib    0.7831  0.6925       0.5205
+kvasir-seg    0.9033  0.8479       0.6707
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold1.csv
+== eval segformer_b2_seed42_fold1 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8687  0.7890       0.5865
+cvc-clinicdb  0.8757  0.8014       0.5680
+cvc-colondb   0.7855  0.7003       0.4976
+etis-larib    0.7887  0.6996       0.5347
+kvasir-seg    0.9048  0.8519       0.6843
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold1_tta.csv
+== train segformer_b2_seed42_fold2
+[segformer_b2_seed42_fold2] device=cuda params=24.72M train=700 val=100 amp=True
+[segformer_b2_seed42_fold2] epoch   1/60 loss=0.9437 val_dice=0.8024 (10s)
+[segformer_b2_seed42_fold2] epoch   2/60 loss=0.5560 val_dice=0.8416 (5s)
+[segformer_b2_seed42_fold2] epoch   3/60 loss=0.4456 val_dice=0.8473 (5s)
+[segformer_b2_seed42_fold2] epoch   4/60 loss=0.4184 val_dice=0.8596 (4s)
+[segformer_b2_seed42_fold2] epoch   5/60 loss=0.3500 val_dice=0.8789 (4s)
+[segformer_b2_seed42_fold2] epoch   6/60 loss=0.3398 val_dice=0.8770 (4s)
+[segformer_b2_seed42_fold2] epoch   7/60 loss=0.3164 val_dice=0.8891 (4s)
+[segformer_b2_seed42_fold2] epoch   8/60 loss=0.2956 val_dice=0.8981 (4s)
+[segformer_b2_seed42_fold2] epoch   9/60 loss=0.3026 val_dice=0.8906 (5s)
+[segformer_b2_seed42_fold2] epoch  10/60 loss=0.2717 val_dice=0.8982 (5s)
+[segformer_b2_seed42_fold2] epoch  11/60 loss=0.2630 val_dice=0.9008 (4s)
+[segformer_b2_seed42_fold2] epoch  12/60 loss=0.2725 val_dice=0.8926 (4s)
+[segformer_b2_seed42_fold2] epoch  13/60 loss=0.2644 val_dice=0.9025 (4s)
+[segformer_b2_seed42_fold2] epoch  14/60 loss=0.2525 val_dice=0.9039 (5s)
+[segformer_b2_seed42_fold2] epoch  15/60 loss=0.2460 val_dice=0.8968 (5s)
+[segformer_b2_seed42_fold2] epoch  16/60 loss=0.2338 val_dice=0.9000 (5s)
+[segformer_b2_seed42_fold2] epoch  17/60 loss=0.2368 val_dice=0.9019 (4s)
+[segformer_b2_seed42_fold2] epoch  18/60 loss=0.2459 val_dice=0.8925 (4s)
+[segformer_b2_seed42_fold2] epoch  19/60 loss=0.2123 val_dice=0.9027 (4s)
+[segformer_b2_seed42_fold2] epoch  20/60 loss=0.2352 val_dice=0.9042 (4s)
+[segformer_b2_seed42_fold2] epoch  21/60 loss=0.2226 val_dice=0.9070 (4s)
+[segformer_b2_seed42_fold2] epoch  22/60 loss=0.2243 val_dice=0.8974 (4s)
+[segformer_b2_seed42_fold2] epoch  23/60 loss=0.1979 val_dice=0.8969 (4s)
+[segformer_b2_seed42_fold2] epoch  24/60 loss=0.2020 val_dice=0.9126 (4s)
+[segformer_b2_seed42_fold2] epoch  25/60 loss=0.2012 val_dice=0.8874 (4s)
+[segformer_b2_seed42_fold2] epoch  26/60 loss=0.2018 val_dice=0.8967 (4s)
+[segformer_b2_seed42_fold2] epoch  27/60 loss=0.2030 val_dice=0.9106 (4s)
+[segformer_b2_seed42_fold2] epoch  28/60 loss=0.1981 val_dice=0.9158 (4s)
+[segformer_b2_seed42_fold2] epoch  29/60 loss=0.1883 val_dice=0.9061 (4s)
+[segformer_b2_seed42_fold2] epoch  30/60 loss=0.1860 val_dice=0.9095 (4s)
+[segformer_b2_seed42_fold2] epoch  31/60 loss=0.1747 val_dice=0.9082 (4s)
+[segformer_b2_seed42_fold2] epoch  32/60 loss=0.1736 val_dice=0.9098 (5s)
+[segformer_b2_seed42_fold2] epoch  33/60 loss=0.1689 val_dice=0.9112 (4s)
+[segformer_b2_seed42_fold2] epoch  34/60 loss=0.1671 val_dice=0.9075 (4s)
+[segformer_b2_seed42_fold2] epoch  35/60 loss=0.1580 val_dice=0.9121 (4s)
+[segformer_b2_seed42_fold2] epoch  36/60 loss=0.1691 val_dice=0.9114 (4s)
+[segformer_b2_seed42_fold2] epoch  37/60 loss=0.1668 val_dice=0.9086 (4s)
+[segformer_b2_seed42_fold2] epoch  38/60 loss=0.1680 val_dice=0.9156 (4s)
+[segformer_b2_seed42_fold2] epoch  39/60 loss=0.1510 val_dice=0.9098 (4s)
+[segformer_b2_seed42_fold2] epoch  40/60 loss=0.1471 val_dice=0.9166 (5s)
+[segformer_b2_seed42_fold2] epoch  41/60 loss=0.1551 val_dice=0.9123 (4s)
+[segformer_b2_seed42_fold2] epoch  42/60 loss=0.1510 val_dice=0.9160 (4s)
+[segformer_b2_seed42_fold2] epoch  43/60 loss=0.1468 val_dice=0.9134 (4s)
+[segformer_b2_seed42_fold2] epoch  44/60 loss=0.1465 val_dice=0.9136 (4s)
+[segformer_b2_seed42_fold2] epoch  45/60 loss=0.1413 val_dice=0.9129 (4s)
+[segformer_b2_seed42_fold2] epoch  46/60 loss=0.1369 val_dice=0.9138 (4s)
+[segformer_b2_seed42_fold2] epoch  47/60 loss=0.1431 val_dice=0.9125 (4s)
+[segformer_b2_seed42_fold2] epoch  48/60 loss=0.1445 val_dice=0.9127 (4s)
+[segformer_b2_seed42_fold2] epoch  49/60 loss=0.1377 val_dice=0.9136 (4s)
+[segformer_b2_seed42_fold2] epoch  50/60 loss=0.1426 val_dice=0.9143 (4s)
+[segformer_b2_seed42_fold2] epoch  51/60 loss=0.1375 val_dice=0.9173 (4s)
+[segformer_b2_seed42_fold2] epoch  52/60 loss=0.1464 val_dice=0.9171 (4s)
+[segformer_b2_seed42_fold2] epoch  53/60 loss=0.1382 val_dice=0.9134 (4s)
+[segformer_b2_seed42_fold2] epoch  54/60 loss=0.1399 val_dice=0.9140 (4s)
+[segformer_b2_seed42_fold2] epoch  55/60 loss=0.1337 val_dice=0.9144 (4s)
+[segformer_b2_seed42_fold2] epoch  56/60 loss=0.1471 val_dice=0.9171 (4s)
+[segformer_b2_seed42_fold2] epoch  57/60 loss=0.1405 val_dice=0.9174 (4s)
+[segformer_b2_seed42_fold2] epoch  58/60 loss=0.1396 val_dice=0.9183 (4s)
+[segformer_b2_seed42_fold2] epoch  59/60 loss=0.1437 val_dice=0.9184 (4s)
+[segformer_b2_seed42_fold2] epoch  60/60 loss=0.1330 val_dice=0.9184 (4s)
+[segformer_b2_seed42_fold2] done. best val Dice 0.9184 @ epoch 59
+== eval segformer_b2_seed42_fold2
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8645  0.7803       0.5802
+cvc-clinicdb  0.8780  0.8042       0.5711
+cvc-colondb   0.7882  0.6998       0.5028
+etis-larib    0.7726  0.6841       0.5158
+kvasir-seg    0.9203  0.8693       0.6773
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold2.csv
+== eval segformer_b2_seed42_fold2 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8679  0.7877       0.6043
+cvc-clinicdb  0.8799  0.8076       0.5828
+cvc-colondb   0.7965  0.7094       0.5155
+etis-larib    0.7828  0.6954       0.5287
+kvasir-seg    0.9199  0.8687       0.6833
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold2_tta.csv
+== train segformer_b2_seed42_fold3
+[segformer_b2_seed42_fold3] device=cuda params=24.72M train=700 val=100 amp=True
+[segformer_b2_seed42_fold3] epoch   1/60 loss=0.9428 val_dice=0.7911 (11s)
+[segformer_b2_seed42_fold3] epoch   2/60 loss=0.5163 val_dice=0.8441 (5s)
+[segformer_b2_seed42_fold3] epoch   3/60 loss=0.4261 val_dice=0.8470 (4s)
+[segformer_b2_seed42_fold3] epoch   4/60 loss=0.3881 val_dice=0.8677 (4s)
+[segformer_b2_seed42_fold3] epoch   5/60 loss=0.3465 val_dice=0.8718 (4s)
+[segformer_b2_seed42_fold3] epoch   6/60 loss=0.3215 val_dice=0.8799 (4s)
+[segformer_b2_seed42_fold3] epoch   7/60 loss=0.2881 val_dice=0.8872 (4s)
+[segformer_b2_seed42_fold3] epoch   8/60 loss=0.3007 val_dice=0.8876 (4s)
+[segformer_b2_seed42_fold3] epoch   9/60 loss=0.2748 val_dice=0.8830 (4s)
+[segformer_b2_seed42_fold3] epoch  10/60 loss=0.2788 val_dice=0.8873 (4s)
+[segformer_b2_seed42_fold3] epoch  11/60 loss=0.2503 val_dice=0.8973 (4s)
+[segformer_b2_seed42_fold3] epoch  12/60 loss=0.2494 val_dice=0.8916 (4s)
+[segformer_b2_seed42_fold3] epoch  13/60 loss=0.2342 val_dice=0.8950 (4s)
+[segformer_b2_seed42_fold3] epoch  14/60 loss=0.2128 val_dice=0.8923 (4s)
+[segformer_b2_seed42_fold3] epoch  15/60 loss=0.2348 val_dice=0.8742 (4s)
+[segformer_b2_seed42_fold3] epoch  16/60 loss=0.2198 val_dice=0.8835 (4s)
+[segformer_b2_seed42_fold3] epoch  17/60 loss=0.2222 val_dice=0.8999 (5s)
+[segformer_b2_seed42_fold3] epoch  18/60 loss=0.2013 val_dice=0.9011 (5s)
+[segformer_b2_seed42_fold3] epoch  19/60 loss=0.1990 val_dice=0.8947 (4s)
+[segformer_b2_seed42_fold3] epoch  20/60 loss=0.1998 val_dice=0.8913 (4s)
+[segformer_b2_seed42_fold3] epoch  21/60 loss=0.1996 val_dice=0.8914 (4s)
+[segformer_b2_seed42_fold3] epoch  22/60 loss=0.1863 val_dice=0.8930 (4s)
+[segformer_b2_seed42_fold3] epoch  23/60 loss=0.1854 val_dice=0.8941 (4s)
+[segformer_b2_seed42_fold3] epoch  24/60 loss=0.1845 val_dice=0.8997 (4s)
+[segformer_b2_seed42_fold3] epoch  25/60 loss=0.1800 val_dice=0.8929 (4s)
+[segformer_b2_seed42_fold3] epoch  26/60 loss=0.1768 val_dice=0.8970 (5s)
+[segformer_b2_seed42_fold3] epoch  27/60 loss=0.1706 val_dice=0.8952 (4s)
+[segformer_b2_seed42_fold3] epoch  28/60 loss=0.1741 val_dice=0.8973 (4s)
+[segformer_b2_seed42_fold3] epoch  29/60 loss=0.1641 val_dice=0.8978 (4s)
+[segformer_b2_seed42_fold3] epoch  30/60 loss=0.1637 val_dice=0.8962 (4s)
+[segformer_b2_seed42_fold3] epoch  31/60 loss=0.1499 val_dice=0.9017 (4s)
+[segformer_b2_seed42_fold3] epoch  32/60 loss=0.1545 val_dice=0.8954 (4s)
+[segformer_b2_seed42_fold3] epoch  33/60 loss=0.1523 val_dice=0.9003 (5s)
+[segformer_b2_seed42_fold3] epoch  34/60 loss=0.1620 val_dice=0.9074 (5s)
+[segformer_b2_seed42_fold3] epoch  35/60 loss=0.1490 val_dice=0.9045 (5s)
+[segformer_b2_seed42_fold3] epoch  36/60 loss=0.1457 val_dice=0.9040 (5s)
+[segformer_b2_seed42_fold3] epoch  37/60 loss=0.1545 val_dice=0.8992 (5s)
+[segformer_b2_seed42_fold3] epoch  38/60 loss=0.1384 val_dice=0.8934 (4s)
+[segformer_b2_seed42_fold3] epoch  39/60 loss=0.1380 val_dice=0.8950 (4s)
+[segformer_b2_seed42_fold3] epoch  40/60 loss=0.1372 val_dice=0.9005 (5s)
+[segformer_b2_seed42_fold3] epoch  41/60 loss=0.1333 val_dice=0.8983 (4s)
+[segformer_b2_seed42_fold3] epoch  42/60 loss=0.1401 val_dice=0.9012 (4s)
+[segformer_b2_seed42_fold3] epoch  43/60 loss=0.1509 val_dice=0.9008 (4s)
+[segformer_b2_seed42_fold3] epoch  44/60 loss=0.1412 val_dice=0.8944 (4s)
+[segformer_b2_seed42_fold3] epoch  45/60 loss=0.1347 val_dice=0.9000 (4s)
+[segformer_b2_seed42_fold3] epoch  46/60 loss=0.1299 val_dice=0.8992 (4s)
+[segformer_b2_seed42_fold3] epoch  47/60 loss=0.1293 val_dice=0.9012 (4s)
+[segformer_b2_seed42_fold3] epoch  48/60 loss=0.1379 val_dice=0.9011 (5s)
+[segformer_b2_seed42_fold3] epoch  49/60 loss=0.1270 val_dice=0.8999 (4s)
+[segformer_b2_seed42_fold3] early stop at epoch 49 (best 0.9074 @ 34)
+[segformer_b2_seed42_fold3] done. best val Dice 0.9074 @ epoch 34
+== eval segformer_b2_seed42_fold3
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8398  0.7563       0.5463
+cvc-clinicdb  0.8697  0.7935       0.5414
+cvc-colondb   0.7597  0.6715       0.4603
+etis-larib    0.7442  0.6551       0.4951
+kvasir-seg    0.9210  0.8682       0.6710
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold3.csv
+== eval segformer_b2_seed42_fold3 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8610  0.7798       0.5697
+cvc-clinicdb  0.8719  0.7963       0.5520
+cvc-colondb   0.7688  0.6826       0.4671
+etis-larib    0.7687  0.6827       0.5139
+kvasir-seg    0.9259  0.8755       0.6911
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold3_tta.csv
+== train segformer_b2_seed42_fold4
+[segformer_b2_seed42_fold4] device=cuda params=24.72M train=700 val=100 amp=True
+[segformer_b2_seed42_fold4] epoch   1/60 loss=0.9507 val_dice=0.7481 (11s)
+[segformer_b2_seed42_fold4] epoch   2/60 loss=0.5792 val_dice=0.8237 (4s)
+[segformer_b2_seed42_fold4] epoch   3/60 loss=0.4776 val_dice=0.8471 (4s)
+[segformer_b2_seed42_fold4] epoch   4/60 loss=0.3772 val_dice=0.8677 (4s)
+[segformer_b2_seed42_fold4] epoch   5/60 loss=0.3534 val_dice=0.8768 (4s)
+[segformer_b2_seed42_fold4] epoch   6/60 loss=0.3009 val_dice=0.8918 (4s)
+[segformer_b2_seed42_fold4] epoch   7/60 loss=0.2802 val_dice=0.8820 (4s)
+[segformer_b2_seed42_fold4] epoch   8/60 loss=0.2645 val_dice=0.8947 (5s)
+[segformer_b2_seed42_fold4] epoch   9/60 loss=0.2652 val_dice=0.8891 (5s)
+[segformer_b2_seed42_fold4] epoch  10/60 loss=0.2430 val_dice=0.8713 (4s)
+[segformer_b2_seed42_fold4] epoch  11/60 loss=0.2323 val_dice=0.8918 (4s)
+[segformer_b2_seed42_fold4] epoch  12/60 loss=0.2379 val_dice=0.8909 (4s)
+[segformer_b2_seed42_fold4] epoch  13/60 loss=0.2453 val_dice=0.8747 (4s)
+[segformer_b2_seed42_fold4] epoch  14/60 loss=0.2330 val_dice=0.8895 (4s)
+[segformer_b2_seed42_fold4] epoch  15/60 loss=0.2154 val_dice=0.9047 (4s)
+[segformer_b2_seed42_fold4] epoch  16/60 loss=0.2135 val_dice=0.8991 (4s)
+[segformer_b2_seed42_fold4] epoch  17/60 loss=0.1948 val_dice=0.9012 (4s)
+[segformer_b2_seed42_fold4] epoch  18/60 loss=0.1941 val_dice=0.9020 (4s)
+[segformer_b2_seed42_fold4] epoch  19/60 loss=0.2132 val_dice=0.8957 (4s)
+[segformer_b2_seed42_fold4] epoch  20/60 loss=0.1902 val_dice=0.8895 (4s)
+[segformer_b2_seed42_fold4] epoch  21/60 loss=0.1989 val_dice=0.9005 (4s)
+[segformer_b2_seed42_fold4] epoch  22/60 loss=0.1726 val_dice=0.9036 (4s)
+[segformer_b2_seed42_fold4] epoch  23/60 loss=0.1847 val_dice=0.9117 (4s)
+[segformer_b2_seed42_fold4] epoch  24/60 loss=0.1676 val_dice=0.9038 (4s)
+[segformer_b2_seed42_fold4] epoch  25/60 loss=0.1702 val_dice=0.9076 (4s)
+[segformer_b2_seed42_fold4] epoch  26/60 loss=0.1696 val_dice=0.9051 (4s)
+[segformer_b2_seed42_fold4] epoch  27/60 loss=0.1674 val_dice=0.8952 (4s)
+[segformer_b2_seed42_fold4] epoch  28/60 loss=0.1678 val_dice=0.8963 (4s)
+[segformer_b2_seed42_fold4] epoch  29/60 loss=0.1582 val_dice=0.8974 (4s)
+[segformer_b2_seed42_fold4] epoch  30/60 loss=0.1597 val_dice=0.9055 (4s)
+[segformer_b2_seed42_fold4] epoch  31/60 loss=0.1526 val_dice=0.9091 (4s)
+[segformer_b2_seed42_fold4] epoch  32/60 loss=0.1579 val_dice=0.9126 (4s)
+[segformer_b2_seed42_fold4] epoch  33/60 loss=0.1459 val_dice=0.9075 (4s)
+[segformer_b2_seed42_fold4] epoch  34/60 loss=0.1476 val_dice=0.9082 (4s)
+[segformer_b2_seed42_fold4] epoch  35/60 loss=0.1406 val_dice=0.9049 (4s)
+[segformer_b2_seed42_fold4] epoch  36/60 loss=0.1352 val_dice=0.9031 (4s)
+[segformer_b2_seed42_fold4] epoch  37/60 loss=0.1476 val_dice=0.9089 (4s)
+[segformer_b2_seed42_fold4] epoch  38/60 loss=0.1458 val_dice=0.9074 (4s)
+[segformer_b2_seed42_fold4] epoch  39/60 loss=0.1447 val_dice=0.9106 (4s)
+[segformer_b2_seed42_fold4] epoch  40/60 loss=0.1357 val_dice=0.9078 (5s)
+[segformer_b2_seed42_fold4] epoch  41/60 loss=0.1248 val_dice=0.9100 (4s)
+[segformer_b2_seed42_fold4] epoch  42/60 loss=0.1371 val_dice=0.9126 (4s)
+[segformer_b2_seed42_fold4] epoch  43/60 loss=0.1340 val_dice=0.9085 (4s)
+[segformer_b2_seed42_fold4] epoch  44/60 loss=0.1313 val_dice=0.9114 (4s)
+[segformer_b2_seed42_fold4] epoch  45/60 loss=0.1255 val_dice=0.9108 (4s)
+[segformer_b2_seed42_fold4] epoch  46/60 loss=0.1259 val_dice=0.9109 (4s)
+[segformer_b2_seed42_fold4] epoch  47/60 loss=0.1219 val_dice=0.9125 (4s)
+[segformer_b2_seed42_fold4] early stop at epoch 47 (best 0.9126 @ 32)
+[segformer_b2_seed42_fold4] done. best val Dice 0.9126 @ epoch 32
+== eval segformer_b2_seed42_fold4
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8639  0.7840       0.5911
+cvc-clinicdb  0.8724  0.7961       0.5543
+cvc-colondb   0.7795  0.6887       0.4604
+etis-larib    0.7722  0.6844       0.5300
+kvasir-seg    0.9199  0.8629       0.6574
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold4.csv
+== eval segformer_b2_seed42_fold4 (TTA)
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8683  0.7895       0.6029
+cvc-clinicdb  0.8740  0.7983       0.5612
+cvc-colondb   0.7796  0.6907       0.4772
+etis-larib    0.7921  0.7079       0.5460
+kvasir-seg    0.9246  0.8706       0.6753
+
+Wrote polypseg/outputs/cv/perimage_segformer_b2_seed42_fold4_tta.csv
+== train unet_pvt_seed42_fold0
+[unet_pvt_seed42_fold0] device=cuda params=28.13M train=700 val=100 amp=True
+[unet_pvt_seed42_fold0] epoch   1/60 loss=1.1305 val_dice=0.6708 (11s)
+[unet_pvt_seed42_fold0] epoch   2/60 loss=0.8301 val_dice=0.7644 (5s)
+[unet_pvt_seed42_fold0] epoch   3/60 loss=0.7363 val_dice=0.8048 (5s)
+[unet_pvt_seed42_fold0] epoch   4/60 loss=0.6557 val_dice=0.8378 (5s)
+[unet_pvt_seed42_fold0] epoch   5/60 loss=0.6158 val_dice=0.8479 (5s)
+[unet_pvt_seed42_fold0] epoch   6/60 loss=0.5819 val_dice=0.8328 (5s)
+[unet_pvt_seed42_fold0] epoch   7/60 loss=0.5443 val_dice=0.8381 (5s)
+[unet_pvt_seed42_fold0] epoch   8/60 loss=0.4995 val_dice=0.8532 (5s)
+[unet_pvt_seed42_fold0] epoch   9/60 loss=0.4511 val_dice=0.8550 (5s)
+[unet_pvt_seed42_fold0] epoch  10/60 loss=0.4181 val_dice=0.8493 (5s)
+[unet_pvt_seed42_fold0] epoch  11/60 loss=0.4109 val_dice=0.8630 (5s)
+[unet_pvt_seed42_fold0] epoch  12/60 loss=0.3704 val_dice=0.8754 (5s)
+[unet_pvt_seed42_fold0] epoch  13/60 loss=0.3562 val_dice=0.8582 (5s)
+[unet_pvt_seed42_fold0] epoch  14/60 loss=0.3303 val_dice=0.8673 (5s)
+[unet_pvt_seed42_fold0] epoch  15/60 loss=0.3221 val_dice=0.8533 (5s)
+[unet_pvt_seed42_fold0] epoch  16/60 loss=0.3037 val_dice=0.8830 (5s)
+[unet_pvt_seed42_fold0] epoch  17/60 loss=0.2825 val_dice=0.8828 (5s)
+[unet_pvt_seed42_fold0] epoch  18/60 loss=0.2654 val_dice=0.8559 (5s)
+[unet_pvt_seed42_fold0] epoch  19/60 loss=0.2649 val_dice=0.8640 (5s)
+[unet_pvt_seed42_fold0] epoch  20/60 loss=0.2501 val_dice=0.8836 (5s)
+[unet_pvt_seed42_fold0] epoch  21/60 loss=0.2377 val_dice=0.8867 (5s)
+[unet_pvt_seed42_fold0] epoch  22/60 loss=0.2294 val_dice=0.8771 (5s)
+[unet_pvt_seed42_fold0] epoch  23/60 loss=0.2248 val_dice=0.8857 (5s)
+[unet_pvt_seed42_fold0] epoch  24/60 loss=0.2097 val_dice=0.8815 (5s)
+[unet_pvt_seed42_fold0] epoch  25/60 loss=0.2038 val_dice=0.8957 (5s)
+[unet_pvt_seed42_fold0] epoch  26/60 loss=0.2054 val_dice=0.8891 (5s)
+[unet_pvt_seed42_fold0] epoch  27/60 loss=0.1917 val_dice=0.8768 (5s)
+[unet_pvt_seed42_fold0] epoch  28/60 loss=0.1790 val_dice=0.8942 (5s)
+[unet_pvt_seed42_fold0] epoch  29/60 loss=0.1920 val_dice=0.8959 (5s)
+[unet_pvt_seed42_fold0] epoch  30/60 loss=0.1800 val_dice=0.8963 (5s)
+[unet_pvt_seed42_fold0] epoch  31/60 loss=0.1696 val_dice=0.8938 (5s)
+[unet_pvt_seed42_fold0] epoch  32/60 loss=0.1641 val_dice=0.9034 (5s)
+[unet_pvt_seed42_fold0] epoch  33/60 loss=0.1722 val_dice=0.8970 (5s)
+[unet_pvt_seed42_fold0] epoch  34/60 loss=0.1589 val_dice=0.8959 (5s)
+[unet_pvt_seed42_fold0] epoch  35/60 loss=0.1589 val_dice=0.8821 (5s)
+[unet_pvt_seed42_fold0] epoch  36/60 loss=0.1542 val_dice=0.8945 (5s)
+[unet_pvt_seed42_fold0] epoch  37/60 loss=0.1565 val_dice=0.8990 (5s)
+[unet_pvt_seed42_fold0] epoch  38/60 loss=0.1490 val_dice=0.8977 (5s)
+[unet_pvt_seed42_fold0] epoch  39/60 loss=0.1422 val_dice=0.8957 (5s)
+[unet_pvt_seed42_fold0] epoch  40/60 loss=0.1501 val_dice=0.9005 (5s)
+[unet_pvt_seed42_fold0] epoch  41/60 loss=0.1417 val_dice=0.8998 (5s)
+[unet_pvt_seed42_fold0] epoch  42/60 loss=0.1421 val_dice=0.9031 (5s)
+[unet_pvt_seed42_fold0] epoch  43/60 loss=0.1368 val_dice=0.9018 (5s)
+[unet_pvt_seed42_fold0] epoch  44/60 loss=0.1411 val_dice=0.9013 (5s)
+[unet_pvt_seed42_fold0] epoch  45/60 loss=0.1396 val_dice=0.8980 (5s)
+[unet_pvt_seed42_fold0] epoch  46/60 loss=0.1418 val_dice=0.8938 (5s)
+[unet_pvt_seed42_fold0] epoch  47/60 loss=0.1302 val_dice=0.8957 (5s)
+[unet_pvt_seed42_fold0] early stop at epoch 47 (best 0.9034 @ 32)
+[unet_pvt_seed42_fold0] done. best val Dice 0.9034 @ epoch 32
+== eval unet_pvt_seed42_fold0
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8964  0.8248       0.6851
+cvc-clinicdb  0.8668  0.7947       0.5949
+cvc-colondb   0.7570  0.6718       0.4925
+etis-larib    0.7638  0.6864       0.5827
+kvasir-seg    0.9148  0.8630       0.6983
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold0.csv
+== eval unet_pvt_seed42_fold0 (TTA)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8892  0.8157       0.6694
+cvc-clinicdb  0.8744  0.8029       0.6103
+cvc-colondb   0.7781  0.6957       0.5144
+etis-larib    0.7947  0.7199       0.6097
+kvasir-seg    0.9133  0.8627       0.7064
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold0_tta.csv
+== train unet_pvt_seed42_fold1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unet_pvt_seed42_fold1] device=cuda params=28.13M train=700 val=100 amp=True
+[unet_pvt_seed42_fold1] epoch   1/60 loss=1.1528 val_dice=0.6989 (11s)
+[unet_pvt_seed42_fold1] epoch   2/60 loss=0.8237 val_dice=0.8425 (5s)
+[unet_pvt_seed42_fold1] epoch   3/60 loss=0.7177 val_dice=0.8215 (5s)
+[unet_pvt_seed42_fold1] epoch   4/60 loss=0.6496 val_dice=0.8477 (5s)
+[unet_pvt_seed42_fold1] epoch   5/60 loss=0.5916 val_dice=0.8696 (5s)
+[unet_pvt_seed42_fold1] epoch   6/60 loss=0.5496 val_dice=0.8724 (5s)
+[unet_pvt_seed42_fold1] epoch   7/60 loss=0.5089 val_dice=0.8675 (5s)
+[unet_pvt_seed42_fold1] epoch   8/60 loss=0.4696 val_dice=0.8614 (5s)
+[unet_pvt_seed42_fold1] epoch   9/60 loss=0.4349 val_dice=0.9034 (5s)
+[unet_pvt_seed42_fold1] epoch  10/60 loss=0.3969 val_dice=0.8892 (5s)
+[unet_pvt_seed42_fold1] epoch  11/60 loss=0.3788 val_dice=0.8929 (5s)
+[unet_pvt_seed42_fold1] epoch  12/60 loss=0.3633 val_dice=0.8876 (5s)
+[unet_pvt_seed42_fold1] epoch  13/60 loss=0.3422 val_dice=0.8973 (5s)
+[unet_pvt_seed42_fold1] epoch  14/60 loss=0.3304 val_dice=0.8808 (5s)
+[unet_pvt_seed42_fold1] epoch  15/60 loss=0.3192 val_dice=0.9018 (5s)
+[unet_pvt_seed42_fold1] epoch  16/60 loss=0.2876 val_dice=0.8970 (5s)
+[unet_pvt_seed42_fold1] epoch  17/60 loss=0.2749 val_dice=0.8862 (5s)
+[unet_pvt_seed42_fold1] epoch  18/60 loss=0.2787 val_dice=0.8739 (5s)
+[unet_pvt_seed42_fold1] epoch  19/60 loss=0.2548 val_dice=0.8996 (5s)
+[unet_pvt_seed42_fold1] epoch  20/60 loss=0.2358 val_dice=0.8983 (5s)
+[unet_pvt_seed42_fold1] epoch  21/60 loss=0.2393 val_dice=0.8982 (5s)
+[unet_pvt_seed42_fold1] epoch  22/60 loss=0.2253 val_dice=0.8888 (5s)
+[unet_pvt_seed42_fold1] epoch  23/60 loss=0.2159 val_dice=0.9097 (5s)
+[unet_pvt_seed42_fold1] epoch  24/60 loss=0.2229 val_dice=0.8954 (5s)
+[unet_pvt_seed42_fold1] epoch  25/60 loss=0.2045 val_dice=0.9094 (5s)
+[unet_pvt_seed42_fold1] epoch  26/60 loss=0.2016 val_dice=0.9040 (5s)
+[unet_pvt_seed42_fold1] epoch  27/60 loss=0.1902 val_dice=0.9092 (5s)
+[unet_pvt_seed42_fold1] epoch  28/60 loss=0.1914 val_dice=0.9146 (5s)
+[unet_pvt_seed42_fold1] epoch  29/60 loss=0.1835 val_dice=0.9159 (5s)
+[unet_pvt_seed42_fold1] epoch  30/60 loss=0.1924 val_dice=0.9091 (5s)
+[unet_pvt_seed42_fold1] epoch  31/60 loss=0.1721 val_dice=0.9135 (5s)
+[unet_pvt_seed42_fold1] epoch  32/60 loss=0.1564 val_dice=0.9141 (5s)
+[unet_pvt_seed42_fold1] epoch  33/60 loss=0.1688 val_dice=0.9123 (5s)
+[unet_pvt_seed42_fold1] epoch  34/60 loss=0.1609 val_dice=0.9108 (5s)
+[unet_pvt_seed42_fold1] epoch  35/60 loss=0.1549 val_dice=0.9097 (5s)
+[unet_pvt_seed42_fold1] epoch  36/60 loss=0.1480 val_dice=0.9132 (5s)
+[unet_pvt_seed42_fold1] epoch  37/60 loss=0.1515 val_dice=0.9112 (5s)
+[unet_pvt_seed42_fold1] epoch  38/60 loss=0.1615 val_dice=0.9069 (5s)
+[unet_pvt_seed42_fold1] epoch  39/60 loss=0.1516 val_dice=0.9119 (5s)
+[unet_pvt_seed42_fold1] epoch  40/60 loss=0.1473 val_dice=0.9141 (5s)
+[unet_pvt_seed42_fold1] epoch  41/60 loss=0.1463 val_dice=0.9116 (5s)
+[unet_pvt_seed42_fold1] epoch  42/60 loss=0.1362 val_dice=0.9125 (5s)
+[unet_pvt_seed42_fold1] epoch  43/60 loss=0.1483 val_dice=0.9138 (5s)
+[unet_pvt_seed42_fold1] epoch  44/60 loss=0.1390 val_dice=0.9128 (5s)
+[unet_pvt_seed42_fold1] early stop at epoch 44 (best 0.9159 @ 29)
+[unet_pvt_seed42_fold1] done. best val Dice 0.9159 @ epoch 29
+== eval unet_pvt_seed42_fold1
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8602  0.7831       0.6068
+cvc-clinicdb  0.8775  0.8061       0.5943
+cvc-colondb   0.7770  0.6899       0.4916
+etis-larib    0.7560  0.6761       0.5489
+kvasir-seg    0.9001  0.8464       0.6950
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold1.csv
+== eval unet_pvt_seed42_fold1 (TTA)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8708  0.7958       0.6314
+cvc-clinicdb  0.8809  0.8096       0.6057
+cvc-colondb   0.7919  0.7056       0.5172
+etis-larib    0.7745  0.6950       0.5744
+kvasir-seg    0.9135  0.8627       0.7145
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold1_tta.csv
+== train unet_pvt_seed42_fold2
+[unet_pvt_seed42_fold2] device=cuda params=28.13M train=700 val=100 amp=True
+[unet_pvt_seed42_fold2] epoch   1/60 loss=1.1453 val_dice=0.6738 (11s)
+[unet_pvt_seed42_fold2] epoch   2/60 loss=0.8341 val_dice=0.8436 (5s)
+[unet_pvt_seed42_fold2] epoch   3/60 loss=0.7158 val_dice=0.8486 (5s)
+[unet_pvt_seed42_fold2] epoch   4/60 loss=0.6527 val_dice=0.8526 (5s)
+[unet_pvt_seed42_fold2] epoch   5/60 loss=0.5859 val_dice=0.8651 (5s)
+[unet_pvt_seed42_fold2] epoch   6/60 loss=0.5560 val_dice=0.8754 (5s)
+[unet_pvt_seed42_fold2] epoch   7/60 loss=0.5087 val_dice=0.8679 (5s)
+[unet_pvt_seed42_fold2] epoch   8/60 loss=0.4695 val_dice=0.8865 (5s)
+[unet_pvt_seed42_fold2] epoch   9/60 loss=0.4403 val_dice=0.8872 (5s)
+[unet_pvt_seed42_fold2] epoch  10/60 loss=0.4185 val_dice=0.9011 (5s)
+[unet_pvt_seed42_fold2] epoch  11/60 loss=0.3865 val_dice=0.8887 (5s)
+[unet_pvt_seed42_fold2] epoch  12/60 loss=0.3632 val_dice=0.8815 (5s)
+[unet_pvt_seed42_fold2] epoch  13/60 loss=0.3570 val_dice=0.8908 (5s)
+[unet_pvt_seed42_fold2] epoch  14/60 loss=0.3309 val_dice=0.8976 (5s)
+[unet_pvt_seed42_fold2] epoch  15/60 loss=0.3050 val_dice=0.8927 (5s)
+[unet_pvt_seed42_fold2] epoch  16/60 loss=0.3135 val_dice=0.8986 (5s)
+[unet_pvt_seed42_fold2] epoch  17/60 loss=0.2974 val_dice=0.9012 (5s)
+[unet_pvt_seed42_fold2] epoch  18/60 loss=0.2752 val_dice=0.8946 (5s)
+[unet_pvt_seed42_fold2] epoch  19/60 loss=0.2591 val_dice=0.8800 (5s)
+[unet_pvt_seed42_fold2] epoch  20/60 loss=0.2420 val_dice=0.9038 (5s)
+[unet_pvt_seed42_fold2] epoch  21/60 loss=0.2344 val_dice=0.8929 (5s)
+[unet_pvt_seed42_fold2] epoch  22/60 loss=0.2259 val_dice=0.9001 (5s)
+[unet_pvt_seed42_fold2] epoch  23/60 loss=0.2157 val_dice=0.9042 (5s)
+[unet_pvt_seed42_fold2] epoch  24/60 loss=0.2177 val_dice=0.9030 (5s)
+[unet_pvt_seed42_fold2] epoch  25/60 loss=0.2210 val_dice=0.9020 (5s)
+[unet_pvt_seed42_fold2] epoch  26/60 loss=0.1991 val_dice=0.9056 (5s)
+[unet_pvt_seed42_fold2] epoch  27/60 loss=0.2044 val_dice=0.9064 (5s)
+[unet_pvt_seed42_fold2] epoch  28/60 loss=0.1906 val_dice=0.9098 (5s)
+[unet_pvt_seed42_fold2] epoch  29/60 loss=0.1858 val_dice=0.8963 (5s)
+[unet_pvt_seed42_fold2] epoch  30/60 loss=0.1756 val_dice=0.9142 (5s)
+[unet_pvt_seed42_fold2] epoch  31/60 loss=0.1679 val_dice=0.9090 (5s)
+[unet_pvt_seed42_fold2] epoch  32/60 loss=0.1856 val_dice=0.9023 (5s)
+[unet_pvt_seed42_fold2] epoch  33/60 loss=0.1591 val_dice=0.8998 (5s)
+[unet_pvt_seed42_fold2] epoch  34/60 loss=0.1769 val_dice=0.9042 (5s)
+[unet_pvt_seed42_fold2] epoch  35/60 loss=0.1543 val_dice=0.9048 (5s)
+[unet_pvt_seed42_fold2] epoch  36/60 loss=0.1529 val_dice=0.9129 (5s)
+[unet_pvt_seed42_fold2] epoch  37/60 loss=0.1514 val_dice=0.9070 (5s)
+[unet_pvt_seed42_fold2] epoch  38/60 loss=0.1675 val_dice=0.8998 (5s)
+[unet_pvt_seed42_fold2] epoch  39/60 loss=0.1636 val_dice=0.8996 (5s)
+[unet_pvt_seed42_fold2] epoch  40/60 loss=0.1509 val_dice=0.9049 (5s)
+[unet_pvt_seed42_fold2] epoch  41/60 loss=0.1473 val_dice=0.9025 (5s)
+[unet_pvt_seed42_fold2] epoch  42/60 loss=0.1508 val_dice=0.9064 (5s)
+[unet_pvt_seed42_fold2] epoch  43/60 loss=0.1459 val_dice=0.9026 (5s)
+[unet_pvt_seed42_fold2] epoch  44/60 loss=0.1384 val_dice=0.9048 (5s)
+[unet_pvt_seed42_fold2] epoch  45/60 loss=0.1379 val_dice=0.9062 (5s)
+[unet_pvt_seed42_fold2] early stop at epoch 45 (best 0.9142 @ 30)
+[unet_pvt_seed42_fold2] done. best val Dice 0.9142 @ epoch 30
+== eval unet_pvt_seed42_fold2
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8762  0.7992       0.6338
+cvc-clinicdb  0.8798  0.8087       0.6088
+cvc-colondb   0.7843  0.7006       0.5099
+etis-larib    0.7866  0.7046       0.5870
+kvasir-seg    0.9254  0.8780       0.7153
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold2.csv
+== eval unet_pvt_seed42_fold2 (TTA)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8786  0.8035       0.6444
+cvc-clinicdb  0.8843  0.8147       0.6168
+cvc-colondb   0.7993  0.7155       0.5268
+etis-larib    0.7713  0.6949       0.5832
+kvasir-seg    0.9263  0.8798       0.7253
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold2_tta.csv
+== train unet_pvt_seed42_fold3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unet_pvt_seed42_fold3] device=cuda params=28.13M train=700 val=100 amp=True
+[unet_pvt_seed42_fold3] epoch   1/60 loss=1.1732 val_dice=0.7480 (11s)
+[unet_pvt_seed42_fold3] epoch   2/60 loss=0.8337 val_dice=0.8432 (5s)
+[unet_pvt_seed42_fold3] epoch   3/60 loss=0.7284 val_dice=0.8491 (5s)
+[unet_pvt_seed42_fold3] epoch   4/60 loss=0.6740 val_dice=0.8462 (5s)
+[unet_pvt_seed42_fold3] epoch   5/60 loss=0.6230 val_dice=0.8792 (5s)
+[unet_pvt_seed42_fold3] epoch   6/60 loss=0.5796 val_dice=0.8620 (5s)
+[unet_pvt_seed42_fold3] epoch   7/60 loss=0.5324 val_dice=0.8752 (5s)
+[unet_pvt_seed42_fold3] epoch   8/60 loss=0.4836 val_dice=0.8844 (5s)
+[unet_pvt_seed42_fold3] epoch   9/60 loss=0.4476 val_dice=0.8824 (5s)
+[unet_pvt_seed42_fold3] epoch  10/60 loss=0.4116 val_dice=0.8914 (5s)
+[unet_pvt_seed42_fold3] epoch  11/60 loss=0.3737 val_dice=0.8964 (5s)
+[unet_pvt_seed42_fold3] epoch  12/60 loss=0.3786 val_dice=0.9047 (5s)
+[unet_pvt_seed42_fold3] epoch  13/60 loss=0.3453 val_dice=0.8992 (5s)
+[unet_pvt_seed42_fold3] epoch  14/60 loss=0.3368 val_dice=0.8830 (5s)
+[unet_pvt_seed42_fold3] epoch  15/60 loss=0.3073 val_dice=0.8866 (5s)
+[unet_pvt_seed42_fold3] epoch  16/60 loss=0.3044 val_dice=0.8969 (5s)
+[unet_pvt_seed42_fold3] epoch  17/60 loss=0.2872 val_dice=0.8944 (5s)
+[unet_pvt_seed42_fold3] epoch  18/60 loss=0.2713 val_dice=0.9018 (5s)
+[unet_pvt_seed42_fold3] epoch  19/60 loss=0.2653 val_dice=0.8864 (5s)
+[unet_pvt_seed42_fold3] epoch  20/60 loss=0.2437 val_dice=0.8890 (5s)
+[unet_pvt_seed42_fold3] epoch  21/60 loss=0.2669 val_dice=0.9055 (5s)
+[unet_pvt_seed42_fold3] epoch  22/60 loss=0.2181 val_dice=0.9096 (5s)
+[unet_pvt_seed42_fold3] epoch  23/60 loss=0.2157 val_dice=0.9113 (5s)
+[unet_pvt_seed42_fold3] epoch  24/60 loss=0.2178 val_dice=0.9026 (5s)
+[unet_pvt_seed42_fold3] epoch  25/60 loss=0.2107 val_dice=0.9032 (5s)
+[unet_pvt_seed42_fold3] epoch  26/60 loss=0.1987 val_dice=0.9002 (5s)
+[unet_pvt_seed42_fold3] epoch  27/60 loss=0.2078 val_dice=0.8889 (5s)
+[unet_pvt_seed42_fold3] epoch  28/60 loss=0.2049 val_dice=0.8836 (5s)
+[unet_pvt_seed42_fold3] epoch  29/60 loss=0.1855 val_dice=0.8953 (5s)
+[unet_pvt_seed42_fold3] epoch  30/60 loss=0.1900 val_dice=0.9108 (5s)
+[unet_pvt_seed42_fold3] epoch  31/60 loss=0.1662 val_dice=0.9118 (5s)
+[unet_pvt_seed42_fold3] epoch  32/60 loss=0.1660 val_dice=0.9082 (5s)
+[unet_pvt_seed42_fold3] epoch  33/60 loss=0.1613 val_dice=0.8999 (5s)
+[unet_pvt_seed42_fold3] epoch  34/60 loss=0.1714 val_dice=0.9044 (5s)
+[unet_pvt_seed42_fold3] epoch  35/60 loss=0.1631 val_dice=0.9057 (5s)
+[unet_pvt_seed42_fold3] epoch  36/60 loss=0.1582 val_dice=0.9140 (5s)
+[unet_pvt_seed42_fold3] epoch  37/60 loss=0.1557 val_dice=0.9148 (5s)
+[unet_pvt_seed42_fold3] epoch  38/60 loss=0.1502 val_dice=0.9144 (5s)
+[unet_pvt_seed42_fold3] epoch  39/60 loss=0.1447 val_dice=0.9060 (5s)
+[unet_pvt_seed42_fold3] epoch  40/60 loss=0.1453 val_dice=0.9025 (5s)
+[unet_pvt_seed42_fold3] epoch  41/60 loss=0.1463 val_dice=0.9081 (5s)
+[unet_pvt_seed42_fold3] epoch  42/60 loss=0.1448 val_dice=0.9127 (5s)
+[unet_pvt_seed42_fold3] epoch  43/60 loss=0.1376 val_dice=0.9081 (5s)
+[unet_pvt_seed42_fold3] epoch  44/60 loss=0.1343 val_dice=0.9119 (5s)
+[unet_pvt_seed42_fold3] epoch  45/60 loss=0.1414 val_dice=0.9009 (5s)
+[unet_pvt_seed42_fold3] epoch  46/60 loss=0.1356 val_dice=0.9059 (5s)
+[unet_pvt_seed42_fold3] epoch  47/60 loss=0.1394 val_dice=0.9047 (5s)
+[unet_pvt_seed42_fold3] epoch  48/60 loss=0.1306 val_dice=0.9053 (5s)
+[unet_pvt_seed42_fold3] epoch  49/60 loss=0.1370 val_dice=0.9029 (5s)
+[unet_pvt_seed42_fold3] epoch  50/60 loss=0.1262 val_dice=0.9016 (5s)
+[unet_pvt_seed42_fold3] epoch  51/60 loss=0.1273 val_dice=0.9020 (5s)
+[unet_pvt_seed42_fold3] epoch  52/60 loss=0.1305 val_dice=0.9017 (5s)
+[unet_pvt_seed42_fold3] early stop at epoch 52 (best 0.9148 @ 37)
+[unet_pvt_seed42_fold3] done. best val Dice 0.9148 @ epoch 37
+== eval unet_pvt_seed42_fold3
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8621  0.7826       0.6025
+cvc-clinicdb  0.8766  0.8033       0.5891
+cvc-colondb   0.7757  0.6864       0.4766
+etis-larib    0.7883  0.7045       0.5843
+kvasir-seg    0.9268  0.8760       0.7245
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold3.csv
+== eval unet_pvt_seed42_fold3 (TTA)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8757  0.7984       0.6192
+cvc-clinicdb  0.8789  0.8065       0.5975
+cvc-colondb   0.7890  0.7020       0.5036
+etis-larib    0.7855  0.7026       0.5813
+kvasir-seg    0.9316  0.8826       0.7384
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold3_tta.csv
+== train unet_pvt_seed42_fold4
+[unet_pvt_seed42_fold4] device=cuda params=28.13M train=700 val=100 amp=True
+[unet_pvt_seed42_fold4] epoch   1/60 loss=1.1655 val_dice=0.7118 (11s)
+[unet_pvt_seed42_fold4] epoch   2/60 loss=0.8528 val_dice=0.8268 (5s)
+[unet_pvt_seed42_fold4] epoch   3/60 loss=0.7402 val_dice=0.8659 (5s)
+[unet_pvt_seed42_fold4] epoch   4/60 loss=0.6515 val_dice=0.8575 (5s)
+[unet_pvt_seed42_fold4] epoch   5/60 loss=0.6057 val_dice=0.8744 (5s)
+[unet_pvt_seed42_fold4] epoch   6/60 loss=0.5636 val_dice=0.8764 (5s)
+[unet_pvt_seed42_fold4] epoch   7/60 loss=0.5256 val_dice=0.8713 (5s)
+[unet_pvt_seed42_fold4] epoch   8/60 loss=0.4889 val_dice=0.8642 (5s)
+[unet_pvt_seed42_fold4] epoch   9/60 loss=0.4650 val_dice=0.8894 (5s)
+[unet_pvt_seed42_fold4] epoch  10/60 loss=0.4270 val_dice=0.9017 (5s)
+[unet_pvt_seed42_fold4] epoch  11/60 loss=0.4014 val_dice=0.9097 (5s)
+[unet_pvt_seed42_fold4] epoch  12/60 loss=0.3707 val_dice=0.9033 (5s)
+[unet_pvt_seed42_fold4] epoch  13/60 loss=0.3432 val_dice=0.8978 (5s)
+[unet_pvt_seed42_fold4] epoch  14/60 loss=0.3295 val_dice=0.8982 (5s)
+[unet_pvt_seed42_fold4] epoch  15/60 loss=0.3243 val_dice=0.9010 (5s)
+[unet_pvt_seed42_fold4] epoch  16/60 loss=0.2959 val_dice=0.9005 (5s)
+[unet_pvt_seed42_fold4] epoch  17/60 loss=0.2881 val_dice=0.9055 (5s)
+[unet_pvt_seed42_fold4] epoch  18/60 loss=0.2851 val_dice=0.8970 (5s)
+[unet_pvt_seed42_fold4] epoch  19/60 loss=0.2950 val_dice=0.9084 (5s)
+[unet_pvt_seed42_fold4] epoch  20/60 loss=0.2562 val_dice=0.8990 (5s)
+[unet_pvt_seed42_fold4] epoch  21/60 loss=0.2459 val_dice=0.9062 (5s)
+[unet_pvt_seed42_fold4] epoch  22/60 loss=0.2413 val_dice=0.9072 (5s)
+[unet_pvt_seed42_fold4] epoch  23/60 loss=0.2210 val_dice=0.9128 (5s)
+[unet_pvt_seed42_fold4] epoch  24/60 loss=0.2513 val_dice=0.8786 (5s)
+[unet_pvt_seed42_fold4] epoch  25/60 loss=0.2396 val_dice=0.9054 (5s)
+[unet_pvt_seed42_fold4] epoch  26/60 loss=0.2113 val_dice=0.9018 (5s)
+[unet_pvt_seed42_fold4] epoch  27/60 loss=0.2032 val_dice=0.8916 (5s)
+[unet_pvt_seed42_fold4] epoch  28/60 loss=0.2274 val_dice=0.9062 (5s)
+[unet_pvt_seed42_fold4] epoch  29/60 loss=0.2018 val_dice=0.9017 (5s)
+[unet_pvt_seed42_fold4] epoch  30/60 loss=0.1877 val_dice=0.9074 (5s)
+[unet_pvt_seed42_fold4] epoch  31/60 loss=0.1808 val_dice=0.9106 (5s)
+[unet_pvt_seed42_fold4] epoch  32/60 loss=0.1789 val_dice=0.9001 (5s)
+[unet_pvt_seed42_fold4] epoch  33/60 loss=0.1790 val_dice=0.9113 (5s)
+[unet_pvt_seed42_fold4] epoch  34/60 loss=0.1719 val_dice=0.9059 (5s)
+[unet_pvt_seed42_fold4] epoch  35/60 loss=0.1628 val_dice=0.9070 (5s)
+[unet_pvt_seed42_fold4] epoch  36/60 loss=0.1665 val_dice=0.9091 (5s)
+[unet_pvt_seed42_fold4] epoch  37/60 loss=0.1548 val_dice=0.9111 (5s)
+[unet_pvt_seed42_fold4] epoch  38/60 loss=0.1582 val_dice=0.9087 (5s)
+[unet_pvt_seed42_fold4] early stop at epoch 38 (best 0.9128 @ 23)
+[unet_pvt_seed42_fold4] done. best val Dice 0.9128 @ epoch 23
+== eval unet_pvt_seed42_fold4
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8691  0.7850       0.5554
+cvc-clinicdb  0.8683  0.7922       0.5671
+cvc-colondb   0.7400  0.6541       0.4421
+etis-larib    0.7584  0.6663       0.5183
+kvasir-seg    0.8994  0.8395       0.6645
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold4.csv
+== eval unet_pvt_seed42_fold4 (TTA)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[eval] cvc-300: 60 images
+[eval] cvc-clinicdb: 612 images
+[eval] cvc-colondb: 380 images
+[eval] etis-larib: 196 images
+                dice     iou  boundary_f1
+dataset                                  
+cvc-300       0.8716  0.7885       0.5708
+cvc-clinicdb  0.8728  0.7983       0.5871
+cvc-colondb   0.7626  0.6780       0.4649
+etis-larib    0.7560  0.6677       0.5194
+kvasir-seg    0.9103  0.8530       0.6918
+
+Wrote polypseg/outputs/cv/perimage_unet_pvt_seed42_fold4_tta.csv
+== cv complete

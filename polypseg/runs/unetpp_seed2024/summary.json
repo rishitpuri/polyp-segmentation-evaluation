@@ -1,0 +1,10 @@
+{
+  "run": "unetpp_seed2024",
+  "model": "unetpp",
+  "seed": 2024,
+  "best_val_dice": 0.9159025044530257,
+  "best_epoch": 36,
+  "params_total": 26078609,
+  "params_trainable": 26078609,
+  "device": "cuda"
+}

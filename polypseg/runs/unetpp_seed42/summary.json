@@ -1,0 +1,10 @@
+{
+  "run": "unetpp_seed42",
+  "model": "unetpp",
+  "seed": 42,
+  "best_val_dice": 0.917453288889925,
+  "best_epoch": 33,
+  "params_total": 26078609,
+  "params_trainable": 26078609,
+  "device": "cuda"
+}

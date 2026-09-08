@@ -1,0 +1,11 @@
+# Pod dependencies. torch/torchvision are PREINSTALLED in the RunPod
+# PyTorch 2.8.0 image and must NOT be reinstalled — pip would pull a build
+# that mismatches the host driver.
+segmentation-models-pytorch==0.5.0
+albumentations==2.0.8
+opencv-python-headless
+scipy
+pandas
+scikit-learn
+matplotlib
+tqdm

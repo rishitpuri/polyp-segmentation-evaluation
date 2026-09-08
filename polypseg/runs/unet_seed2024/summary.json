@@ -1,0 +1,10 @@
+{
+  "run": "unet_seed2024",
+  "model": "unet",
+  "seed": 2024,
+  "best_val_dice": 0.9045940212682985,
+  "best_epoch": 30,
+  "params_total": 24436369,
+  "params_trainable": 24436369,
+  "device": "cuda"
+}
