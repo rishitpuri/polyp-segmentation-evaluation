@@ -13,6 +13,28 @@ RES = OUT / "analysis_final"
 TAB = ROOT / "polypseg" / "paper_journal" / "tables"
 TAB.mkdir(parents=True, exist_ok=True)
 
+# IEEE two-column variant: these tables are too wide for a single column, so
+# they must span both (`table*`). Emitted separately rather than editing the
+# shared sources, because the single-column manuscript needs plain `table`.
+TAB_IEEE = ROOT / "polypseg" / "paper_ieee" / "tables"
+TAB_IEEE.mkdir(parents=True, exist_ok=True)
+WIDE = {"tab_indomain.tex", "tab_cross.tex", "tab_size.tex",
+        "tab_variance.tex", "tab_resolving.tex", "tab_sessile.tex"}
+
+
+def write_ieee_variants():
+    """Mirror the tables into the IEEE manuscript, widening the float and
+    reducing the font so nothing overflows the column."""
+    for src in sorted(TAB.glob("*.tex")):
+        text = src.read_text()
+        if src.name in WIDE:
+            text = (text.replace(r"\begin{table}[t]", r"\begin{table*}[t]")
+                        .replace(r"\end{table}", r"\end{table*}"))
+            if r"\footnotesize" not in text:
+                text = text.replace(r"\centering", "\\centering\n\\footnotesize")
+        (TAB_IEEE / src.name).write_text(text)
+    print(f"  mirrored {len(list(TAB.glob('*.tex')))} tables to {TAB_IEEE}")
+
 DS = ["Kvasir-SEG", "CVC-ClinicDB", "CVC-300", "CVC-ColonDB", "ETIS-Larib"]
 
 
@@ -189,6 +211,7 @@ def main():
         rf"\newcommand{{\kvasirMedianArea}}{{{100 * kvm.area_frac.median():.1f}}}",
     ]
     w("macros.tex", M)
+    write_ieee_variants()
 
 
 if __name__ == "__main__":
