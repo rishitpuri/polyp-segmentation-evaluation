@@ -53,11 +53,12 @@ polypseg/
 │   ├── 10_external_metadata.py lesion statistics for the external sets
 │   ├── 11_analyze_final.py     full analysis for the journal manuscript
 │   ├── 12_figures_final.py     journal figures
-│   └── 13_make_tables_final.py journal tables and numeric macros
-├── run_all.sh          single split, 3 models x 3 seeds
-├── run_cv.sh           5-fold CV, 5 models x 5 folds  (25 runs)
-├── run_repeat.sh       repeated identical runs, conditions A/B  (19 runs)
-├── run_repeat2.sh      repeated identical runs, conditions C/D  (30 runs)
+│   ├── 13_make_tables_final.py journal tables and numeric macros
+│   └── 14_qualitative_final.py small-lesion panel (needs GPU)
+├── run_all.sh          single split, 3 models x 3 seeds   (9 runs)
+├── run_cv.sh           5-fold CV, 5 models x 5 folds      (25 runs)
+├── run_repeat.sh       repeated identical runs, cond. A/B (19 runs)
+├── run_repeat2.sh      repeated identical runs, cond. C/D (30 runs)
 ├── paper/              initial IEEE conference draft
 └── paper_journal/      journal manuscript (main.tex; tables/ is generated)
 ```
@@ -134,12 +135,20 @@ python polypseg/scripts/11_analyze_final.py
 python polypseg/scripts/12_figures_final.py
 python polypseg/scripts/13_make_tables_final.py
 
-# 5. manuscript
+# 5. qualitative panel (GPU; needs fold-0 models in polypseg/runs_qual)
+python polypseg/scripts/14_qualitative_final.py
+
+# 6. manuscript
 cd polypseg/paper_journal && latexmk -pdf main.tex
 ```
 
 All run scripts are resumable: any run with an existing `summary.json` is
 skipped, so an interrupted job restarts without losing work.
+
+Together these produce the **88 training runs** the manuscript reports:
+9 single-split (3 models x 3 seeds), 25 cross-validation (5 models x 5 folds),
+19 + 30 repeat-variance runs across four determinism conditions, and 5 fold-0
+models for the qualitative panel.
 
 ## Protocol
 
