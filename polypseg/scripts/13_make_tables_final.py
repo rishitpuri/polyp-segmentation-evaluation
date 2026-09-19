@@ -210,6 +210,18 @@ def main():
         rf"\newcommand{{\bestEtis}}{{{t2['ETIS-Larib'].max():.4f}}}",
         rf"\newcommand{{\kvasirMedianArea}}{{{100 * kvm.area_frac.median():.1f}}}",
     ]
+
+    # Qualitative study over every small-lesion external image, if present.
+    qual = OUT / "figures_final" / "f8_qualitative.csv"
+    if qual.exists():
+        q = pd.read_csv(qual)
+        M += [
+            rf"\newcommand{{\nQualSmall}}{{{len(q)}}}",
+            rf"\newcommand{{\nQualAllMiss}}{{{int((q.mean_det == 0).sum())}}}",
+            rf"\newcommand{{\pctQualAllMiss}}{{"
+            rf"{100 * (q.mean_det == 0).mean():.0f}}}",
+            rf"\newcommand{{\nQualZeroDice}}{{{int((q.mean_dice == 0).sum())}}}",
+        ]
     w("macros.tex", M)
     write_ieee_variants()
 
