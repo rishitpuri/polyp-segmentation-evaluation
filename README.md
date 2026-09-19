@@ -1,5 +1,7 @@
 # What Polyp Segmentation Benchmarks Cannot Measure
 
+[![DOI](https://zenodo.org/badge/1360891906.svg)](https://doi.org/10.5281/zenodo.22841360)
+
 Code, splits and per-image results for a measurement study of polyp
 segmentation evaluation. Five architectures are trained under one recipe with
 five-fold cross-validation on Kvasir-SEG and evaluated zero-shot on four
