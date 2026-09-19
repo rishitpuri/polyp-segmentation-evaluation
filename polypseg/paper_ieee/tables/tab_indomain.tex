@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{In-domain performance under five-fold cross-validation on Kvasir-SEG. Every image is tested exactly once ($n=1000$ per model). HD95 is expressed as a percentage of the image diagonal; the detection rate is the fraction of ground-truth lesions matched at IoU $\geq 0.5$.}
+\label{tab:indomain}
+\begin{tabular}{lrccccc}
+\toprule
+Model & Par.\ (M) & Dice & IoU & Boundary-F1 & HD95 (\%) & Det.\ rate \\
+\midrule
+U-Net & 24.4 & 0.9007 & 0.8426 & 0.6725 & 5.89 & 0.9308 \\
+U-Net++ & 26.1 & 0.9011 & 0.8437 & 0.6777 & 6.34 & 0.9328 \\
+SegFormer-B0 & 3.7 & 0.8932 & 0.8293 & 0.5947 & 6.14 & 0.9269 \\
+SegFormer-B2 & 24.7 & \textbf{0.9142} & 0.8598 & 0.6661 & \textbf{4.86} & \textbf{0.9408} \\
+U-Net+PVTv2 & 28.1 & 0.9133 & \textbf{0.8606} & \textbf{0.6995} & 5.29 & 0.9334 \\
+\bottomrule
+\end{tabular}
+\end{table*}

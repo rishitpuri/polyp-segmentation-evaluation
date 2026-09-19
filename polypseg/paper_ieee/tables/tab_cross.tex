@@ -1,0 +1,25 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{Zero-shot transfer. Models are trained on Kvasir-SEG only; each value is the mean over the five cross-validation fold models. Upper block: Dice. Lower block: per-lesion detection rate at IoU $\geq 0.5$.}
+\label{tab:cross}
+\begin{tabular}{lccccc}
+\toprule
+Model & Kvasir-\allowbreak SEG & CVC-\allowbreak ClinicDB & CVC-\allowbreak 300 & CVC-\allowbreak ColonDB & ETIS-\allowbreak Larib \\
+\midrule
+\multicolumn{6}{l}{\emph{Dice}}\\
+\quad U-Net & 0.9007 & 0.8489 & 0.8552 & 0.7191 & 0.6805 \\
+\quad U-Net++ & 0.9011 & 0.8535 & 0.8443 & 0.7250 & 0.6551 \\
+\quad SegFormer-B0 & 0.8932 & 0.8450 & 0.8395 & 0.7275 & 0.6743 \\
+\quad SegFormer-B2 & 0.9142 & 0.8718 & 0.8550 & 0.7738 & 0.7685 \\
+\quad U-Net+PVTv2 & 0.9133 & 0.8738 & 0.8728 & 0.7668 & 0.7706 \\
+\midrule
+\multicolumn{6}{l}{\emph{Per-lesion detection rate}}\\
+\quad U-Net & 0.9308 & 0.8879 & 0.8867 & 0.7632 & 0.7361 \\
+\quad U-Net++ & 0.9328 & 0.8920 & 0.8867 & 0.7742 & 0.7262 \\
+\quad SegFormer-B0 & 0.9269 & 0.8850 & 0.8900 & 0.7589 & 0.7207 \\
+\quad SegFormer-B2 & 0.9408 & 0.9151 & 0.8867 & 0.8132 & 0.8129 \\
+\quad U-Net+PVTv2 & 0.9334 & 0.9139 & 0.8933 & 0.8147 & 0.8279 \\
+\bottomrule
+\end{tabular}
+\end{table*}

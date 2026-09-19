@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{Test-Dice spread across repeated runs of an identical configuration (same seed, same fold, same data). Neither seeding the data-loader RNGs nor enabling deterministic CUDA kernels removes the variance.}
+\label{tab:variance}
+\begin{tabular}{llccc}
+\toprule
+Cond. & Configuration & Mean sd & Mean spread & Max spread \\
+\midrule
+A & unfixed worker RNG, default kernels & 0.0058 & 0.0108 & 0.0174 \\
+B & unfixed worker RNG, deterministic & 0.0046 & 0.0065 & 0.0082 \\
+C & fixed worker RNG, default kernels & 0.0056 & 0.0107 & 0.0154 \\
+D & fixed worker RNG, deterministic & 0.0046 & 0.0088 & 0.0188 \\
+\bottomrule
+\end{tabular}
+\end{table*}

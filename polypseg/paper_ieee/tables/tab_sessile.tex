@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{Sessile (flat) versus non-sessile lesions, in domain. Differences are bootstrap means with 95\% percentile intervals; $p$ from a two-sided permutation test on the difference of means.}
+\label{tab:sessile}
+\begin{tabular}{lccc}
+\toprule
+Model & Sessile ($n{=}196$) & Non-sessile ($n{=}804$) & Difference \\
+\midrule
+U-Net & 0.8500 & 0.9131 & $-0.0632$ \\
+U-Net++ & 0.8481 & 0.9140 & $-0.0660$ \\
+SegFormer-B0 & 0.8305 & 0.9085 & $-0.0780$ \\
+SegFormer-B2 & 0.8692 & 0.9251 & $-0.0559$ \\
+U-Net+PVTv2 & 0.8693 & 0.9240 & $-0.0547$ \\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,94 @@
+\documentclass[11pt]{letter}
+\usepackage[margin=1in]{geometry}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+
+\signature{Rishit Puri}
+\address{Rishit Puri\\
+ORCID 0009-0004-6215-9997\\
+\texttt{rishitpuri15@gmail.com}}
+
+\begin{document}
+
+\begin{letter}{Editor-in-Chief\\
+IEEE Journal of Biomedical and Health Informatics}
+
+\opening{Dear Editor,}
+
+Please consider the enclosed manuscript, \emph{``What Polyp Segmentation
+Benchmarks Cannot Measure: Small Lesions, Domain Shift, and a Noise Floor
+Larger Than Most Reported Gains,''} for publication as a regular paper in the
+IEEE Journal of Biomedical and Health Informatics.
+
+Automated polyp segmentation is now almost universally benchmarked as a
+single mean Dice score on one train/test split of Kvasir-SEG, and reported
+values cluster within a few points of one another. Rather than proposing
+another architecture, this manuscript asks what that protocol is capable of
+measuring. We train five architectures spanning four backbone families under
+an identical recipe, evaluate them with five-fold cross-validation over all
+1000 Kvasir-SEG images and zero-shot on four external datasets, and measure
+the protocol's own variance by repeating identical configurations.
+
+Three findings seem to us of direct interest to the journal's readership:
+
+\begin{enumerate}
+\item \textbf{Clinically small lesions are missed about half the time.} For
+lesions occupying under 1\% of the frame, per-lesion detection falls to
+0.44--0.59 from 0.86--0.89 for larger lesions. Of the 123 such images in the
+external sets, 44 (36\%) are detected by \emph{no} architecture, and 16 elicit
+an empty mask from every model. Kvasir-SEG contains six such images out of
+1000, so the field's primary benchmark is close to blind to the failure mode
+that dominates clinical misses.
+
+\item \textbf{The evaluation protocol carries a noise floor comparable to
+reported gains.} Repeating identical training configurations yields a
+test-Dice standard deviation of 0.0053, and 4 of 10 pairwise in-domain
+architecture comparisons fall below it. We trace the variance not to random
+seeds or non-deterministic CUDA kernels---neither of which removes it---but to
+checkpoint selection on a flat validation curve, where identical runs select
+epochs 11.3 apart on average and differences in validation Dice carry no
+information about differences in test Dice ($r=0.004$).
+
+\item \textbf{Test-set choice determines resolving power.} Expressed in units
+of that noise floor, the same five architectures span 3.9$\sigma$ in domain
+but 21.6$\sigma$ on ETIS-Larib, so cross-dataset evaluation distinguishes
+methods that in-domain evaluation cannot.
+\end{enumerate}
+
+We also report, as a worked example of the first problem, a subgroup finding
+from our own single-split analysis---an apparent robustness of U-Net++ to
+flat lesions---that did not survive cross-validation. We include it because
+it is precisely the error the conventional protocol invites.
+
+The work is intended to be immediately actionable for practitioners:
+it recommends reporting a measured noise floor, including datasets that
+contain genuinely small lesions, reporting per-lesion detection alongside
+region overlap, and avoiding single-checkpoint model selection on small
+validation sets. All code, cross-validation splits and per-image results for
+all 88 training runs are publicly released
+(\url{https://github.com/rishitpuri/polyp-segmentation-evaluation},
+archived at \url{https://doi.org/10.5281/zenodo.22841360}).
+
+I confirm that this manuscript is original, has not been published
+previously, and is not under consideration by any other journal. There are no
+prior or concurrent submissions of overlapping content. The study used only
+publicly available, de-identified datasets, so institutional ethics approval
+was not required. I am employed as a software engineer by Karl Storz
+Endoscopy; the company had no role in the conception, design, execution,
+analysis or reporting of this work, provided no funding or resources for it,
+and the study uses exclusively public datasets and open-source software. This
+is declared in the manuscript's competing interests statement. I am the sole
+author and have no other competing interests to declare.
+
+% Optional: ScholarOne will ask for suggested reviewers. Nominate three or
+% four researchers who publish on polyp segmentation benchmarking or on
+% evaluation methodology in medical imaging, and with whom you have no
+% conflict (no shared institution, supervision or recent co-authorship).
+% Do not nominate anyone you have not actually read.
+
+Thank you for your time and consideration.
+
+\closing{Sincerely,}
+
+\end{letter}
+\end{document}

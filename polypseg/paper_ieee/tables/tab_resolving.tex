@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{Resolving power of each test set. The spread is the Dice difference between the best and worst of the five architectures; $\sigma_{\mathrm{run}}$ is the measured run-to-run standard deviation. A test set can only distinguish architectures whose gaps exceed this noise floor.}
+\label{tab:resolving}
+\begin{tabular}{lccll}
+\toprule
+Test set & Spread & $/\sigma_{\mathrm{run}}$ & Best & Worst \\
+\midrule
+Kvasir-SEG & 0.0210 & 3.9 & SegFormer-B2 & SegFormer-B0 \\
+CVC-ClinicDB & 0.0287 & 5.4 & U-Net+PVTv2 & SegFormer-B0 \\
+CVC-300 & 0.0333 & 6.2 & U-Net+PVTv2 & SegFormer-B0 \\
+CVC-ColonDB & 0.0548 & 10.3 & SegFormer-B2 & U-Net \\
+ETIS-Larib & 0.1155 & 21.6 & U-Net+PVTv2 & U-Net++ \\
+\bottomrule
+\end{tabular}
+\end{table*}

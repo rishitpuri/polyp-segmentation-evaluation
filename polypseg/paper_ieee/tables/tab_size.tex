@@ -1,0 +1,19 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\caption{Performance by true lesion size, pooled over all test images (in-domain and external). Lesions occupying less than 1\% of the image are segmented far worse and, more importantly, are missed outright about half of the time. Kvasir-SEG contains only 6 such images, so this failure mode is nearly invisible to in-domain benchmarking.}
+\label{tab:size}
+\begin{tabular}{lcccccc}
+\toprule
+ & \multicolumn{3}{c}{Dice} & \multicolumn{3}{c}{Detection rate} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+Model & $<$1\% & 1--5\% & $>$5\% & $<$1\% & 1--5\% & $>$5\% \\
+\midrule
+U-Net & 0.4461 & 0.8101 & 0.8289 & 0.489 & 0.869 & 0.857 \\
+U-Net++ & 0.4022 & 0.8050 & 0.8415 & 0.449 & 0.873 & 0.870 \\
+SegFormer-B0 & 0.4034 & 0.8047 & 0.8403 & 0.437 & 0.865 & 0.862 \\
+SegFormer-B2 & 0.5271 & 0.8483 & 0.8656 & 0.566 & 0.908 & 0.892 \\
+U-Net+PVTv2 & 0.5026 & 0.8503 & 0.8689 & 0.594 & 0.907 & 0.892 \\
+\bottomrule
+\end{tabular}
+\end{table*}
